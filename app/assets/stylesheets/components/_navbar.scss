@@ -1,6 +1,11 @@
+.navbar {
+	background-color: white;
+    height: 70px;
+}
+
 .navbar-lewagon {
   justify-content: space-between;
-  background: white;
+  color: white;
 }
 
 .navbar-lewagon .navbar-collapse {
@@ -9,4 +14,80 @@
 
 .navbar-lewagon .navbar-brand img {
   width: 40px;
+}
+
+.navbar-middle {
+	width: 500px;
+    background-color: white;
+    margin-left: 56px;
+}
+
+.navbar-wrapper {
+	width: 100vw;
+}
+.btn-menu {
+	color: black;
+	font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.btn-menu:hover {
+  opacity: 0.8;
+  color: #5a5147;
+  text-decoration: none;
+}
+
+.dropdown:hover .dropdown-menu{
+  display:block;
+}
+
+.dropdown-menu {
+  border-radius: 3px;
+    border: 0px;
+    background-color: #5a5147;
+    a {
+      color: white;
+    }
+}
+
+.dropdown-item:hover a {
+  color: #5a5147;
+  font-weight: 400;
+
+}
+
+.dropdown-item {
+    color: white;
+    font-weight: 200;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    a {
+      text-decoration: none;
+
+    }
+    :hover {
+      color: #5a5147;
+    }
+}
+
+.dropdown-item:link{
+  color: #5a5147;
+}
+
+.btn:focus, .btn.focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0);
+}
+
+.dropdown-item:hover {
+          color: #5a5147;
+}
+.dropdown-item:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0);
+}
+.dropdown-item.active, .dropdown-item:active {
+  color: #fff;
+  text-decoration: none;
+  background-color: white;
 }

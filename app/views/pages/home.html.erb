@@ -1,2 +1,36 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<div class="container">
+	<div class="wrap d-flex justify-content-center">
+		<div class="flip-cards ">
+			<% jon = @portraits.each_slice(10).to_a%>
+			<% jon.each do |portraits|%>
+				<div class="row ">
+				<% portraits.each do |portrait| %>
+					<div class=" flip-card" data-titre="<%= portrait.titre%>" data-number="<%= portrait.numéro %>" data-details="<%= portrait.details %>" data-dimensions="<%= portrait.dimensions%>">	
+					<%= link_to "", portrait_path(portrait), class: "card-link"%>
+						<div class="flip-card-front">
+							<%= image_tag portrait.visages %>
+							<%= link_to "", portrait_path(portrait), class: "card-link"%>
+						</div> 
+						<div class="flip-card-back">						
+							<%= image_tag portrait.image %>
+							<%= link_to "", portrait_path(portrait), class: "card-link"%>
+						</div>
+					</div>	
+				<% end %>
+				</div>		
+			<% end %>
+		</div>
+	</div>
+	<div class="infos-show">
+		<div class='infos-show-content'>
+			<div class="number col-3 align-middle"> 100
+			</div>
+			<div class="infos-right col-9">
+				<div class="titre index-titre col-12"></div>
+				<div class="details col-12"></div>
+				<div class="dimensions col-12"></div>
+			</div>
+		</div>
+	</div>	
+</div>
+

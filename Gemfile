@@ -4,10 +4,11 @@ ruby '2.5.1'
 gem 'bootsnap', require: false
 gem 'devise'
 gem 'jbuilder', '~> 2.0'
-gem 'pg', '~> 0.21'
+gem 'pg'
 gem 'puma'
 gem 'rails', '6.0.0'
 gem 'redis'
+gem 'nokogiri'
 
 gem 'autoprefixer-rails'
 gem 'font-awesome-sass', '~> 5.6.1'
@@ -16,9 +17,13 @@ gem 'simple_form'
 gem 'uglifier'
 gem 'webpacker'
 
+gem 'bootstrap-sass'
+gem 'jquery-rails'
+
 group :development do
   gem 'web-console', '>= 3.3.0'
 end
+
 
 group :development, :test do
   gem 'pry-byebug'
@@ -28,3 +33,4 @@ group :development, :test do
   gem 'spring-watcher-listen', '~> 2.0.0'
   gem 'dotenv-rails'
 end
+

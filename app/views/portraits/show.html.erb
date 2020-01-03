@@ -1,0 +1,33 @@
+<div class="content">
+	<div class="wrapper">
+		<div class="left-show">
+			<div class="left-arrow arrow"><%=  link_to " < ",portrait_path(params[:id].to_i - 1)%> </div>
+			<a href="/" ></a>
+		</div>
+		<div class="image">
+			<div class=" image-show ">
+				<%= image_tag @portrait.image, class: "center-block" %>
+			</div>
+			<div class="infos-show">
+				
+				<div class='infos-show-content'>
+					<div class="number col-3 align-middle"> <p> <%=@portrait.numéro %></p>
+					</div>
+					<div class="infos-right col-9">
+						<div class="titre col-12"><%=@portrait.titre %></div>
+						<div class="details col-12"><%=@portrait.details %></div>
+						<div class="dimensions col-12"><%=@portrait.dimensions %></div>
+					</div>
+				</div>
+			</div>		
+		</div>
+		<div class="right-show">
+			<a href="/" ></a>
+			<div class="right-arrow arrow">
+
+					<%=  link_to " > ",portrait_path(params[:id].to_i + 1)%> 
+			</div>
+		</div>
+	</div>
+</div>
+

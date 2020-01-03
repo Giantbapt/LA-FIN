@@ -1,0 +1,604 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	
+	<portrait id="0" image="ETHIOPIE_Vallée de l'omo_Mursi.jpg">
+		<title><![CDATA[Mursi. Valley of Omo. Ethiopia.]]></title>
+		<details><![CDATA[Oil, sand, and soil pigments on canvas]]></details>
+		<dimensions><![CDATA[50 x 50]]></dimensions>
+	</portrait>
+	
+	<portrait id="1" image="AFRIQUE DU NORD_Berbère.JPG">
+		<title><![CDATA[Berbère. North Africa.]]></title>
+		<details><![CDATA[Oil, pigments, sand on canvas]]></details>
+		<dimensions><![CDATA[50 x 50]]></dimensions>
+	</portrait>
+	
+	<portrait id="2" image="PAPOUASIE OCCIDENTALE_Korowais.JPG">
+		<title><![CDATA[Korowais. West Papua.]]></title>
+		<details><![CDATA[Oil, pigments, sand on canvas]]></details>
+		<dimensions><![CDATA[50 x 50]]></dimensions>
+	</portrait>
+	
+	<portrait id="3" image="JAPON_Geisha.jpg">
+		<title><![CDATA[Japan]]></title>
+		<details><![CDATA[Oil, pigments, sand on canvas]]></details>
+		<dimensions><![CDATA[50 x 50]]></dimensions>
+	</portrait>
+	
+	<portrait id="4" image="GABON_Kota.JPG">
+		<title><![CDATA[Kota. Initiation. Gabon.]]></title>
+		<details><![CDATA[Oil, pigments, sand on canvas]]></details>
+		<dimensions><![CDATA[50 x 50]]></dimensions>
+	</portrait>
+	
+	<portrait id="5" image="ARTIQUE_Tchouktches.JPG">
+		<title><![CDATA[Tchouktche. Arctic.]]></title>
+		<details><![CDATA[Oil, pigments, sand on canvas]]></details>
+		<dimensions><![CDATA[50 x 50]]></dimensions>
+	</portrait>
+	
+	<portrait id="6" image="AMERIQUE CENTRALE_Panama_Kuna.JPG">
+		<title><![CDATA[Kuna. Panama.]]></title>
+		<details><![CDATA[Oil, pigments, sand on canvas]]></details>
+		<dimensions><![CDATA[50 x 50]]></dimensions>
+	</portrait>
+	
+	<portrait id="7" image="CHINE_Tu.JPG">
+		<title><![CDATA[Tu. China.]]></title>
+		<details><![CDATA[Oil, pigments, sand on canvas]]></details>
+		<dimensions><![CDATA[50 x 50]]></dimensions>
+	</portrait>
+	
+	<portrait id="8" image="ETHIOPIE_Hamar.JPG">
+		<title><![CDATA[Hamar. Ethiopia.]]></title>
+		<details><![CDATA[Huile, pigments, terre d’afrique et sables sur toile]]></details>
+		<dimensions><![CDATA[50 x 50]]></dimensions>
+	</portrait>
+	
+	<portrait id="9" image="AFRIQUE.JPG">
+		<title><![CDATA[Surma. Valley of Omo. Ethiopia.]]></title>
+		<details><![CDATA[Huile, pigments, sables et corde sur toile]]></details>
+		<dimensions><![CDATA[50 x 50]]></dimensions>
+	</portrait>
+	
+	<portrait id="10" image="CHINE.jpg">
+		<title><![CDATA[Xiahohua Miao. Guizhou. China.]]></title>
+		<details><![CDATA[Oil, pigments, sand on canvas]]></details>
+		<dimensions><![CDATA[50 x 50]]></dimensions>
+	</portrait>
+	
+	<portrait id="11" image="AMERIQUE DU NORD_Indien.jpg">
+		<title><![CDATA[Sioux. North America.]]></title>
+		<details><![CDATA[Oil, pigments, sand on canvas]]></details>
+		<dimensions><![CDATA[50 x 50]]></dimensions>
+	</portrait>
+	
+	<portrait id="12" image="MELANESIE_Arapesh.JPG">
+		<title><![CDATA[Arapesh. Melanesia.]]></title>
+		<details><![CDATA[Oil, pigments, sand on canvas]]></details>
+		<dimensions><![CDATA[50 x 50]]></dimensions>
+	</portrait>
+	
+	<portrait id="13" image="AFRIQUE_femme.JPG">
+		<title><![CDATA[Mangbetu. Zaire.]]></title>
+		<details><![CDATA[Oil, pigments, sand on canvas]]></details>
+		<dimensions><![CDATA[50 x 50]]></dimensions>
+	</portrait>
+	
+	<portrait id="14" image="AMERIQUE DU NORD_Piegan.JPG">
+		<title><![CDATA[Apsaroke. North America.]]></title>
+		<details><![CDATA[Oil, pigments, sand on canvas]]></details>
+		<dimensions><![CDATA[50 x 50]]></dimensions>
+	</portrait>
+	
+	<portrait id="15" image="NIGER_Wodaabee.JPG">
+		<title><![CDATA[Wodaabee. Niger. Afrique.]]></title>
+		<details><![CDATA[Oil, pigments, sand on canvas]]></details>
+		<dimensions><![CDATA[50 x 50]]></dimensions>
+	</portrait>
+	
+	<portrait id="16" image="ETHIOPIE_Vallée de l'omo_Masaï surma.JPG">
+		<title><![CDATA[Surma. Valley of Omo. Ethiopia.]]></title>
+		<details><![CDATA[Huile, pigments, sables, poudre de marbre sur toile]]></details>
+		<dimensions><![CDATA[50 x 50]]></dimensions>
+	</portrait>
+	
+	<portrait id="17" image="NOUVELLE GUINEE_Hauts plateaux_Chimbus.JPG">
+		<title><![CDATA[Chimbus. Hauts-plateaux. Nouvelle Guinée.]]></title>
+		<details><![CDATA[Oil, pigments, sand on canvas]]></details>
+		<dimensions><![CDATA[50 x 50]]></dimensions>
+	</portrait>
+	
+	<portrait id="18" image="AMERIQUE DU SUD_AMAZONIE_Kayapo_.JPG">
+		<title><![CDATA[Kayapo. Amazonie. Amérique du Sud.]]></title>
+		<details><![CDATA[Oil, pigments, sand on canvas]]></details>
+		<dimensions><![CDATA[50 x 50]]></dimensions>
+	</portrait>
+	
+	<portrait id="19" image="CHINE_Miao.JPG">
+		<title><![CDATA[Miao. China.]]></title>
+		<details><![CDATA[Oil, pigments, sand on canvas]]></details>
+		<dimensions><![CDATA[50 x 50]]></dimensions>
+	</portrait>
+	
+	<portrait id="20" image="INDE_Hashae Pradesh_Apatanis.JPG">
+		<title><![CDATA[Apatanis. Hashae pradesh. Inde.]]></title>
+		<details><![CDATA[Oil, pigments, sand on canvas]]></details>
+		<dimensions><![CDATA[50 x 50]]></dimensions>
+	</portrait>
+	
+	<portrait id="21" image="AMERIQUE CENTRALE_Maya.JPG">
+		<title><![CDATA[Maya. Amérique Centrale.]]></title>
+		<details><![CDATA[Oil, pigments, sand on canvas]]></details>
+		<dimensions><![CDATA[50 x 50]]></dimensions>
+	</portrait>
+	
+	<portrait id="22" image="AFRIQUE EQUATORIALE_Bakuba.JPG">
+		<title><![CDATA[Bakuba. Afrique Equatoriale]]></title>
+		<details><![CDATA[Huile, pigments, sables, grain de riz sur toile]]></details>
+		<dimensions><![CDATA[50 x 50]]></dimensions>
+	</portrait>
+	
+	<portrait id="23" image="OCCIDENT.JPG">
+		<title><![CDATA[Europe.]]></title>
+		<details><![CDATA[Oil, pigments, sand on canvas]]></details>
+		<dimensions><![CDATA[50 x 50]]></dimensions>
+	</portrait>
+	
+	<portrait id="24" image="PALESTINE_Haredian.JPG">
+		<title><![CDATA[Haredian. Hébreu. Palestine.]]></title>
+		<details><![CDATA[Oil, pigments, sand on canvas]]></details>
+		<dimensions><![CDATA[50 x 50]]></dimensions>
+	</portrait>
+	
+	<portrait id="25" image="AFRIQUE DU SUD_Pays de Kaoka_Himba.JPG">
+		<title><![CDATA[Himba. Kaoka. South Africa.]]></title>
+		<details><![CDATA[Oil, pigments, sand on canvas]]></details>
+		<dimensions><![CDATA[50 x 50]]></dimensions>
+	</portrait>
+	
+	<portrait id="26" image="AMAZONIE_Xinghano.JPG">
+		<title><![CDATA[Xinghano. Amazon.]]></title>
+		<details><![CDATA[Oil, pigments, sand on canvas]]></details>
+		<dimensions><![CDATA[50 x 50]]></dimensions>
+	</portrait>
+	
+	<portrait id="27" image="NOUVELLE GUINEE_Papouasie_Huli.JPG">
+		<title><![CDATA[Huli. Papua New Guinea.]]></title>
+		<details><![CDATA[Oil, pigments, sand on canvas]]></details>
+		<dimensions><![CDATA[50 x 50]]></dimensions>
+	</portrait>
+	
+	<portrait id="28" image="TIBET_Moine lama_Sikkim.JPG">
+		<title><![CDATA[Sikkim. Moine Lama. Tibet.]]></title>
+		<details><![CDATA[Oil, pigments, sand on canvas]]></details>
+		<dimensions><![CDATA[50 x 50]]></dimensions>
+	</portrait>
+	
+	<portrait id="29" image="AMERIQUE DU NORD_Cheyenne.JPG">
+		<title><![CDATA[Cheyenne. North America.]]></title>
+		<details><![CDATA[Oil, pigments, sand on canvas]]></details>
+		<dimensions><![CDATA[50 x 50]]></dimensions>
+	</portrait>
+	
+	<portrait id="30" image="KENYA_Masaï.jpg">
+		<title><![CDATA[Massaï. Kenya. Africa.]]></title>
+		<details><![CDATA[Oil, pigments, sand on canvas]]></details>
+		<dimensions><![CDATA[50 x 50]]></dimensions>
+	</portrait>
+	
+	<portrait id="31" image="AFRIQUE_Igbo.jpg">
+		<title><![CDATA[Nuba. Soudan.]]></title>
+		<details><![CDATA[Oil, pigments, sand on canvas]]></details>
+		<dimensions><![CDATA[50 x 50]]></dimensions>
+	</portrait>
+	
+	<portrait id="32" image="NOUVELLE ZELANDE_Maori.JPG">
+		<title><![CDATA[Maori. New Zeland.]]></title>
+		<details><![CDATA[Oil, pigments, sand on canvas]]></details>
+		<dimensions><![CDATA[50 x 50]]></dimensions>
+	</portrait>
+	
+	<portrait id="33" image="INDE_Bondos.JPG">
+		<title><![CDATA[Bondos. India.]]></title>
+		<details><![CDATA[Oil, pigments, sand on canvas]]></details>
+		<dimensions><![CDATA[50 x 50]]></dimensions>
+	</portrait>
+	
+	<portrait id="34" image="CHINE_Myanmar.jpg">
+		<title><![CDATA[Myanmar. China.]]></title>
+		<details><![CDATA[Oil, pigments, sand on canvas]]></details>
+		<dimensions><![CDATA[50 x 50]]></dimensions>
+	</portrait>
+	
+	<portrait id="35" image="PAPOUASIE_Vallée de l'Asaro_Goroka.JPG">
+		<title><![CDATA[Goroka. Vallée de l’Asaro. Papouasie.]]></title>
+		<details><![CDATA[Huile, pigments, poudre de marbre, argile sur toile]]></details>
+		<dimensions><![CDATA[50 x 50]]></dimensions>
+	</portrait>
+	
+	<portrait id="36" image="ETHIOPIE_Afars.jpg">
+		<title><![CDATA[Afars. Ethiopia.]]></title>
+		<details><![CDATA[Huile, pigments sur toile]]></details>
+		<dimensions><![CDATA[50 x 50]]></dimensions>
+	</portrait>
+	
+	<portrait id="37" image="AMAZONIE_.JPG">
+		<title><![CDATA[Yalawalpiti. Amazon. Brazil.]]></title>
+		<details><![CDATA[Oil, pigments, sand on canvas]]></details>
+		<dimensions><![CDATA[50 x 50]]></dimensions>
+	</portrait>
+	
+	<portrait id="38" image="AUSTRALIE_Terre d'Arnheim_Tiwi.JPG">
+		<title><![CDATA[Tiwi. Terre d’Arnheim. Australia.]]></title>
+		<details><![CDATA[Oil, pigments, sand on canvas]]></details>
+		<dimensions><![CDATA[50 x 50]]></dimensions>
+	</portrait>
+	
+	<portrait id="39" image="AFRIQUE_.JPG">
+		<title><![CDATA[Banza. Equatorial Africa.]]></title>
+		<details><![CDATA[Oil, pigments, sand and soil of Africa on canvas]]></details>
+		<dimensions><![CDATA[50 x 50]]></dimensions>
+	</portrait>
+	
+	<portrait id="40" image="AMAZONIE_3.jpg">
+		<title><![CDATA[Yanomami. Amazon.]]></title>
+		<details><![CDATA[Oil, pigments, sand on canvas]]></details>
+		<dimensions><![CDATA[50 x 50]]></dimensions>
+	</portrait>
+	
+	<portrait id="41" image="MELANESIE_Arapesh_.JPG">
+		<title><![CDATA[Arapesh. Melanesia.]]></title>
+		<details><![CDATA[Oil, pigments, fabric, marble dust on canvas]]></details>
+		<dimensions><![CDATA[50 x 50]]></dimensions>
+	</portrait>
+	
+	<portrait id="42" image="AMAZONIE.jpg">
+		<title><![CDATA[Cibo. Amazon. Brazil.]]></title>
+		<details><![CDATA[Oil, pigments, sand on canvas]]></details>
+		<dimensions><![CDATA[75 x 75]]></dimensions>
+	</portrait>
+	
+	<portrait id="43" image="CHINE_Dongba.JPG">
+		<title><![CDATA[Dongba. China.]]></title>
+		<details><![CDATA[Oil, pigments, sand on canvas]]></details>
+		<dimensions><![CDATA[50 x 50]]></dimensions>
+	</portrait>
+	
+	<portrait id="44" image="BURKINA FASO_Bobo.JPG">
+		<title><![CDATA[Bobo. Burkina Faso.]]></title>
+		<details><![CDATA[Oil, pigments, sand on canvas]]></details>
+		<dimensions><![CDATA[50 x 50]]></dimensions>
+	</portrait>
+	
+	<portrait id="45" image="INDE_femme.jpg">
+		<title><![CDATA[Hindoue. India.]]></title>
+		<details><![CDATA[Oil, pigments, sand on canvas]]></details>
+		<dimensions><![CDATA[50 x 50]]></dimensions>
+	</portrait>
+	
+	<portrait id="46" image="KENYA_Masaï2.JPG">
+		<title><![CDATA[Massaï. Kenya.]]></title>
+		<details><![CDATA[Oil, pigments, sand, soil of Africa on canvas]]></details>
+		<dimensions><![CDATA[50 x 50]]></dimensions>
+	</portrait>
+	
+	<portrait id="47" image="INDE_Ladakhis.JPG">
+		<title><![CDATA[Ladakhis. India.]]></title>
+		<details><![CDATA[Oil, pigments, sand on canvas]]></details>
+		<dimensions><![CDATA[50 x 50]]></dimensions>
+	</portrait>
+	
+	<portrait id="48" image="ETHIOPIE_Vallée de l'omo_Msurma.jpg">
+		<title><![CDATA[Surma. Valley of Omo. Ethiopia.]]></title>
+		<details><![CDATA[Oil, pigments, sand on canvas]]></details>
+		<dimensions><![CDATA[50 x 50]]></dimensions>
+	</portrait>
+	
+	<portrait id="49" image="AFRIQUE DU NORD_Bédoin.JPG">
+		<title><![CDATA[Bédouin. North Africa.]]></title>
+		<details><![CDATA[Oil, pigments, sand, gold dust on canvas]]></details>
+		<dimensions><![CDATA[50 x 50]]></dimensions>
+	</portrait>
+	
+	<portrait id="50" image="INDE_Hindou.jpg">
+		<title><![CDATA[Hindou. India.]]></title>
+		<details><![CDATA[Oil, pigments, sand on canvas]]></details>
+		<dimensions><![CDATA[50 x 50]]></dimensions>
+	</portrait>
+	
+	<portrait id="51" image="SOUDAN_Nuba.JPG">
+		<title><![CDATA[Nuba. Soudan.]]></title>
+		<details><![CDATA[Oil sands, a land of Africa on canvas]]></details>
+		<dimensions><![CDATA[50 x 50]]></dimensions>
+	</portrait>
+	
+	<portrait id="52" image="PEROU_Quechua.JPG">
+		<title><![CDATA[Quechua. Peru.]]></title>
+		<details><![CDATA[Oil, pigments, sand on canvas]]></details>
+		<dimensions><![CDATA[50 x 50]]></dimensions>
+	</portrait>
+	
+	<portrait id="53" image="JAPON.JPG">
+		<title><![CDATA[Geisha. Japan.]]></title>
+		<details><![CDATA[Oil, pigments, sand, marble dust on canvas]]></details>
+		<dimensions><![CDATA[50 x 50]]></dimensions>
+	</portrait>
+	
+	<portrait id="54" image="AFRIQUE DU SUD_Sable noir_Xhosa.JPG">
+		<title><![CDATA[Xhosa. South Africa.]]></title>
+		<details><![CDATA[Oil, pigments, sand on canvas]]></details>
+		<dimensions><![CDATA[50 x 50]]></dimensions>
+	</portrait>
+	
+	<portrait id="55" image="ETHIOPIE_Vallée de l'omo.JPG">
+		<title><![CDATA[Isara-Dingés. Tchad.]]></title>
+		<details><![CDATA[Oil, pigments, sand on canvas]]></details>
+		<dimensions><![CDATA[50 x 50]]></dimensions>
+	</portrait>
+	
+	<portrait id="56" image="BRESIL_Amazonie_Bororo.JPG">
+		<title><![CDATA[Bororo. Amazonie. Brazil.]]></title>
+		<details><![CDATA[Oil, pigments, sand on canvas]]></details>
+		<dimensions><![CDATA[50 x 50]]></dimensions>
+	</portrait>
+	
+	<portrait id="57" image="CHINE_Mongol.JPG">
+		<title><![CDATA[Mongol. China.]]></title>
+		<details><![CDATA[Oil, pigments, sand on canvas]]></details>
+		<dimensions><![CDATA[50 x 50]]></dimensions>
+	</portrait>
+	
+	<portrait id="58" image="INDE_Wanchos_Masaï.JPG">
+		<title><![CDATA[Wanchos. India.]]></title>
+		<details><![CDATA[Oil, pigments, sand on canvas]]></details>
+		<dimensions><![CDATA[50 x 50]]></dimensions>
+	</portrait>
+	
+	<portrait id="59" image="AFRIQUE EQUATORIALE_Mangbetu.jpg">
+		<title><![CDATA[Mangbetu. Zaire.]]></title>
+		<details><![CDATA[Oil, pigments, sand on canvas]]></details>
+		<dimensions><![CDATA[50 x 50]]></dimensions>
+	</portrait>
+	
+	<portrait id="60" image="AMERIQUE DU NORD_Apache.JPG">
+		<title><![CDATA[Apache. Pollen. North America.]]></title>
+		<details><![CDATA[Oil, pigments, sand on canvas]]></details>
+		<dimensions><![CDATA[50 x 50]]></dimensions>
+	</portrait>
+	
+	<portrait id="61" image="AMAZONIE_2.JPG">
+		<title><![CDATA[Kamayuras. Amazon. Brazil.]]></title>
+		<details><![CDATA[Oil, pigments, sand on canvas]]></details>
+		<dimensions><![CDATA[50 x 50]]></dimensions>
+	</portrait>
+	
+	<portrait id="62" image="ARABIE.JPG">
+		<title><![CDATA[Afghanistan.]]></title>
+		<details><![CDATA[Oil, pigments, sand on canvas]]></details>
+		<dimensions><![CDATA[50 x 50]]></dimensions>
+	</portrait>
+	
+	<portrait id="63" image="INDE_Arumachal Pradesh_Nishis.JPG">
+		<title><![CDATA[Nishis. Arumachal Pradesh. India.]]></title>
+		<details><![CDATA[Oil, pigments, sand on canvas]]></details>
+		<dimensions><![CDATA[50 x 50]]></dimensions>
+	</portrait>
+	
+	<portrait id="64" image="NOUVELLE GUINEE_Papouasie_Hulis.jpg">
+		<title><![CDATA[Hulis. Papua New Guinea.]]></title>
+		<details><![CDATA[Oil, pigments, sand on canvas]]></details>
+		<dimensions><![CDATA[50 x 50]]></dimensions>
+	</portrait>
+	
+	<portrait id="65" image="JAPON_Ainu.JPG">
+		<title><![CDATA[Ainu. Japan.]]></title>
+		<details><![CDATA[Oil, pigments, sand on canvas]]></details>
+		<dimensions><![CDATA[50 x 50]]></dimensions>
+	</portrait>
+	
+	<portrait id="66" image="TIBET_Hanis.JPG">
+		<title><![CDATA[Hanis. Tibet.]]></title>
+		<details><![CDATA[Oil, pigments, sand on canvas]]></details>
+		<dimensions><![CDATA[50 x 50]]></dimensions>
+	</portrait>
+	
+	<portrait id="67" image="KENYA_Masaï_2.JPG">
+		<title><![CDATA[Massaï. Kenya.]]></title>
+		<details><![CDATA[Huile, sables, terre d’Afrique sur toile]]></details>
+		<dimensions><![CDATA[50 x 50]]></dimensions>
+	</portrait>
+	
+	<portrait id="68" image="INDE.JPG">
+		<title><![CDATA[Hindoue. Rajasthan. Inde.]]></title>
+		<details><![CDATA[Oil, pigments, sand on canvas]]></details>
+		<dimensions><![CDATA[50 x 50]]></dimensions>
+	</portrait>
+	
+	<portrait id="69" image="Inuit.JPG">
+		<title><![CDATA[Inuit.]]></title>
+		<details><![CDATA[Huile, pigments, sables, poudre de marbre sur toile]]></details>
+		<dimensions><![CDATA[50 x 50]]></dimensions>
+	</portrait>
+	
+	<portrait id="70" image="NOUVELLE GUINEE_Papouasie_Danis.JPG">
+		<title><![CDATA[Danis. Papua New Guinea.]]></title>
+		<details><![CDATA[Oil, pigments, sand on canvas]]></details>
+		<dimensions><![CDATA[50 x 50]]></dimensions>
+	</portrait>
+	
+	<portrait id="71" image="NOUVELLE ZELANDE_Maori_.jpg">
+		<title><![CDATA[Maori. New Zeland.]]></title>
+		<details><![CDATA[Oil, pigments, sand on canvas]]></details>
+		<dimensions><![CDATA[50 x 50]]></dimensions>
+	</portrait>
+	
+	<portrait id="72" image="AMERIQUE DU SUD_Huichol.jpg">
+		<title><![CDATA[Huichol. South America.]]></title>
+		<details><![CDATA[Oil, pigments, sand on canvas]]></details>
+		<dimensions><![CDATA[50 x 50]]></dimensions>
+	</portrait>
+	
+	<portrait id="73" image="AFRIQUE_Omo.JPG">
+		<title><![CDATA[Tofuni. Central Africa.]]></title>
+		<details><![CDATA[Oil, pigments, sand on canvas]]></details>
+		<dimensions><![CDATA[50 x 50]]></dimensions>
+	</portrait>
+	
+	<portrait id="74" image="TIBET.jpg">
+		<title><![CDATA[Tibet.]]></title>
+		<details><![CDATA[Oil, pigments, sand on canvas]]></details>
+		<dimensions><![CDATA[50 x 50]]></dimensions>
+	</portrait>
+	
+	<portrait id="75" image="AMERIQUE DU SUD.jpg">
+		<title><![CDATA[Peru.]]></title>
+		<details><![CDATA[Oil, pigments, sand on canvas]]></details>
+		<dimensions><![CDATA[75 x 75]]></dimensions>
+	</portrait>
+	
+	<portrait id="76" image="AMERIQUE DU SUD_Amazonie_Yanomani.JPG">
+		<title><![CDATA[Yanomani. Amazon. South America.]]></title>
+		<details><![CDATA[Oil, pigments, sand on canvas]]></details>
+		<dimensions><![CDATA[50 x 50]]></dimensions>
+	</portrait>
+	
+	<portrait id="77" image="sansnom.JPG">
+		<title><![CDATA[Ndebele. Afrique du Sud.]]></title>
+		<details><![CDATA[Huile, pigments, sables, poudre d’or sur toile]]></details>
+		<dimensions><![CDATA[50 x 50]]></dimensions>
+	</portrait>
+	
+	<portrait id="78" image="JAPON_théâtre.JPG">
+		<title><![CDATA[China.]]></title>
+		<details><![CDATA[Oil, pigments, sand on canvas]]></details>
+		<dimensions><![CDATA[50 x 50]]></dimensions>
+	</portrait>
+	
+	<portrait id="79" image="Walpiri.JPG">
+		<title><![CDATA[Walpiri. Australie.]]></title>
+		<details><![CDATA[Oil, pigments, sand on canvas]]></details>
+		<dimensions><![CDATA[50 x 50]]></dimensions>
+	</portrait>
+	
+	<portrait id="80" image="OCEANIE_Papou.JPG">
+		<title><![CDATA[Papou. Océanie.]]></title>
+		<details><![CDATA[Oil, pigments, sand on canvas]]></details>
+		<dimensions><![CDATA[50 x 50]]></dimensions>
+	</portrait>
+	
+	<portrait id="81" image="AUSTRALIE_Aborigène.jpg">
+		<title><![CDATA[Aborigène. Australie.]]></title>
+		<details><![CDATA[Huile, pigments, sables, feuilles sur toile]]></details>
+		<dimensions><![CDATA[50 x 50]]></dimensions>
+	</portrait>
+	
+	<portrait id="82" image="AMERIQUE DU NORD.JPG">
+		<title><![CDATA[Hodinonhsioni. Iroquois. North America.]]></title>
+		<details><![CDATA[Huile, pigments, sables, poudre de marbre sur toile]]></details>
+		<dimensions><![CDATA[50 x 50]]></dimensions>
+	</portrait>
+	
+	<portrait id="83" image="ASIE_Moine bouddhiste.JPG">
+		<title><![CDATA[Buddhist monk. Cambodia.]]></title>
+		<details><![CDATA[Huile, pigments, terre d’Angkor sur toile]]></details>
+		<dimensions><![CDATA[50 x 50]]></dimensions>
+	</portrait>
+	
+	<portrait id="84" image="NOUVELLE GUINEE_Papouasie_Asmat.jpg">
+		<title><![CDATA[Asmat. Papua New Guinea.]]></title>
+		<details><![CDATA[Huile, pigments, sables, poudre de marbre sur toile]]></details>
+		<dimensions><![CDATA[50 x 50]]></dimensions>
+	</portrait>
+	
+	<portrait id="85" image="THAILANDE_akka_triangle d'o.jpg">
+		<title><![CDATA[Akka. Triangle d’Or. Thaïlande.]]></title>
+		<details><![CDATA[Huile, pigments, sables, poudre d’or sur toile]]></details>
+		<dimensions><![CDATA[50 x 50]]></dimensions>
+	</portrait>
+	
+	<portrait id="86" image="INDE_Amritsar.JPG">
+		<title><![CDATA[Amritsar. India.]]></title>
+		<details><![CDATA[Huile, pigments, sables, tissu sur toile]]></details>
+		<dimensions><![CDATA[50 x 50]]></dimensions>
+	</portrait>
+	
+	<portrait id="87" image="BIRMANIE.JPG">
+		<title><![CDATA[Padaung. Myanmar.]]></title>
+		<details><![CDATA[Huile, pigments, sables, poudre d’or sur toile]]></details>
+		<dimensions><![CDATA[50 x 50]]></dimensions>
+	</portrait>
+	
+	<portrait id="88" image="NOUVELLE GUINEE_Papou.JPG">
+		<title><![CDATA[Danis. Inan-Jaya. New Guinea.]]></title>
+		<details><![CDATA[Huile, pigments, sables, poudre de marbre sur toile]]></details>
+		<dimensions><![CDATA[50 x 50]]></dimensions>
+	</portrait>
+	
+	<portrait id="89" image="AMERIQUE DU SUD_Amazonie_Kayapo.JPG">
+		<title><![CDATA[Kayapo. Amazon. South America.]]></title>
+		<details><![CDATA[Oil, pigments, sand on canvas]]></details>
+		<dimensions><![CDATA[50 x 50]]></dimensions>
+	</portrait>
+	
+	<portrait id="90" image="CHINE_Miao_1.jpg">
+		<title><![CDATA[Miao des ravines. China.]]></title>
+		<details><![CDATA[Oil, pigments, sand on canvas]]></details>
+		<dimensions><![CDATA[50 x 50]]></dimensions>
+	</portrait>
+	
+	<portrait id="91" image="Bali.JPG">
+		<title><![CDATA[Bali.]]></title>
+		<details><![CDATA[Huile, pigments, sables, feuilles d’or sur toile]]></details>
+		<dimensions><![CDATA[50 x 50]]></dimensions>
+	</portrait>
+	
+	<portrait id="92" image="AFRIQUE DU NORD_touareg.jpg">
+		<title><![CDATA[Touareg. North Africa.]]></title>
+		<details><![CDATA[Oil, pigments, sand on canvas]]></details>
+		<dimensions><![CDATA[50 x 50]]></dimensions>
+	</portrait>
+	
+	<portrait id="93" image="MYANMAR_Padaung.jpg">
+		<title><![CDATA[Padaung. Myanmar.]]></title>
+		<details><![CDATA[Huile, pigments, poudres de marbre et d’or sur toile]]></details>
+		<dimensions><![CDATA[50 x 50]]></dimensions>
+	</portrait>
+	
+	<portrait id="94" image="20090325 Chebassier _050.jpg">
+		<title><![CDATA[Barabaig. Tanzania.]]></title>
+		<details><![CDATA[Oil, pigments, sand on canvas]]></details>
+		<dimensions><![CDATA[50 x 50]]></dimensions>
+	</portrait>
+	
+	<portrait id="95" image="AFRIQUE EQUATORIALE_Banza.JPG">
+		<title><![CDATA[Banza. Equatorial Africa.]]></title>
+		<details><![CDATA[Oil, pigments, sand on canvas]]></details>
+		<dimensions><![CDATA[50 x 50]]></dimensions>
+	</portrait>
+	
+	<portrait id="96" image="ETHIOPIE_Vallée de l'omo_Surma_.JPG">
+		<title><![CDATA[Surma. Valley of Omo. Ethiopia.]]></title>
+		<details><![CDATA[Huile, pigments, sables, terre sur toile]]></details>
+		<dimensions><![CDATA[50 x 50]]></dimensions>
+	</portrait>
+	
+	<portrait id="97" image="PAPOUASIE_Papou mendi.JPG">
+		<title><![CDATA[Papou Mendi. Papua.]]></title>
+		<details><![CDATA[Oil, pigments, sand on canvas]]></details>
+		<dimensions><![CDATA[50 x 50]]></dimensions>
+	</portrait>
+	
+	<portrait id="98" image="TIBET_Bouthan.JPG">
+		<title><![CDATA[Bouthan.]]></title>
+		<details><![CDATA[Oil, pigments, sand on canvas]]></details>
+		<dimensions><![CDATA[50 x 50]]></dimensions>
+	</portrait>
+	
+	<portrait id="99" image="INDE_.JPG">
+		<title><![CDATA[India.]]></title>
+		<details><![CDATA[Oil, pigments, sand on canvas]]></details>
+		<dimensions><![CDATA[50 x 50]]></dimensions>
+	</portrait>
+	
+</data>
