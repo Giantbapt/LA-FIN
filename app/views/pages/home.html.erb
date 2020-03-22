@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container-fluid">
 	<div class="wrap d-flex justify-content-center">
 		<div class="flip-cards ">
 			<% jon = @portraits.each_slice(10).to_a%>
@@ -12,7 +12,11 @@
 							<%= link_to "", portrait_path(portrait), class: "card-link"%>
 						</div> 
 						<div class="flip-card-back">						
-							<%= image_tag portrait.image %>
+							<% if FileTest.exist?(portrait.petiteimage) %>
+							<%=	image_tag portrait.petiteimage %>
+							<% else %>
+							<%=	image_tag portrait.image %>
+							<% end %>
 							<%= link_to "", portrait_path(portrait), class: "card-link"%>
 						</div>
 					</div>	

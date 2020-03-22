@@ -4,15 +4,15 @@
   <div class="navbar-wrapper d-flex justify-content-center">
     <div class="navbar-middle d-flex justify-content-center">
         <%= link_to root_path, class: "la-fin" do %>
-		  <%= image_tag "fin.png" %>
+		  <%= image_tag "fin.png", class: "la-fin-img" %>
 		<% end %>
     </div>
     
-  </div>
-  
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+    </button>
 
-
-    <div class="btn-group">
+    <div class="btn-group collapse navbar-collapse" id="navbarSupportedContent">
 	  <button type="button" class="btn dropdown-toggle btn-menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 	    Menu
 	  </button>
@@ -26,5 +26,7 @@
 	    <button class="dropdown-item" type="button"><%= link_to "Remerciements", remerciements_path, class: " dropdown-item"%></button>
 	  </div>
 	</div>
+  </div>
+  
     
 </div>

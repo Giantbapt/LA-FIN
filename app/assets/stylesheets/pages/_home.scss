@@ -1,28 +1,128 @@
-// // Specific CSS for your home-page
-// .card-face {
-// 	width: 500px;
-// 	height: 500px;
-// 	background-image: url("logo.png");
-// }
-// .card-face:hover{
-// 	width: 500px;
-// 	height: 500px;
-// 	background-image: url("téléchargement.jpeg");
-// }
 body {
   background-color: black;
   font-family: 'Roboto', sans-serif;
 }
 
-.row{
-  width: 510px;
+@media (max-width: 767px) {
+  .container-fluid {
+      padding-top: calc((100vh - 70px - 290px - 80px)/2);
+  }
+
+  .flip-cards {
+    width: 290px;
+  }
+  .flip-card {
+    width: 29px;
+    height: 29px;
+  }
+  .infos-show-content{
+    width: 290px
+  }
+
+  .titre {
+    font-size: 13px;
+  }
+
+  .dimensions{
+    font-size: 12px;
+
+  }
+
+  .details{
+    font-size: 12px;
+  }
+
+
+
 }
+
+@media (min-width: 768px) and (max-width: 998px) {
+     .container-fluid {
+      padding-top: calc((100vh - 70px - 500px - 80px)/2);
+    }
+
+    .flip-cards {
+    width: 500px;
+    }
+    .flip-card {
+      width: 50px;
+      height: 50px;
+    }
+    .infos-show-content{
+      width: 500px
+    }
+    .titre {
+      font-weight: 700;
+      font-size: 16px;
+      padding-top: 6px;
+    }
+
+    .dimensions{
+      font-weight: 100;
+      font-size: 14px;
+
+    }
+
+    .details{
+      font-size: 14px;
+      font-weight: 100;
+    }
+}
+
+@media (min-width: 998px) and (max-width: 1200px) {
+    .container-fluid {
+      padding-top: calc((100vh - 70px - 500px - 80px)/2);
+    }
+
+    .flip-cards {
+    width: 500px;
+    }
+    .flip-card {
+      width: 50px;
+      height: 50px;
+    }
+    .infos-show-content{
+      width: 500px
+    }
+    .titre {
+      font-weight: 700;
+      font-size: 16px;
+      padding-top: 6px;
+    }
+
+    .dimensions{
+      font-weight: 100;
+      font-size: 14px;
+
+    }
+
+    .details{
+      font-size: 14px;
+      font-weight: 100;
+    }
+}
+
+@media (min-width: 1200px) {
+   .container-fluid {
+      padding-top: calc((100vh - 70px - 500px - 80px)/2);
+    }
+  .flip-cards {
+    width: 500px;
+  }
+  .flip-card {
+    width: 50px;
+    height: 50px;
+  }
+  .infos-show-content{
+    width: 500px
+  }
+}
+
 
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-card {
   background-color: transparent;
-  width: 50px;
-  height: 50px;
+
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
   cursor: pointer;
 
@@ -64,8 +164,8 @@ body {
 // /* Style the front side (fallback if image is missing) */
 .flip-card-front {
   img {
-  	max-width: 100%;
-  	max-height: 100%;
+    max-width: 100%;
+    max-height: 100%;
   }
 }
 
@@ -88,6 +188,17 @@ body {
     width: 50px;
   }
 }
-// .flip-card-show:hover{
-//     box-shadow: 10px 5px 5px red;;
-//   }
+
+.row {
+  margin: 0px;
+}
+
+// @media (max-width: 640px) {
+//   .flip-card {
+
+//   width: 30px;
+//   height: 30px;
+
+
+// }
+// }

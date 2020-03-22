@@ -23,7 +23,7 @@ document.root.xpath('portrait').each do |portrait|
   details      = portrait.xpath('details').text
   dimensions      = portrait.xpath('dimensions').text
   number += 1
-	Portrait.create(numéro: number, image: image, titre: title, dimensions: dimensions, details: details, visages: "visages_#{number}-#{number}.jpg")
+	Portrait.create(numéro: number, image: image, titre: title, dimensions: dimensions, details: details, visages: "visages_#{number}-#{number}.jpg", petiteimage: "Petit-#{image}")
   puts "#{number} - #{image} - #{title} - #{details} - #{dimensions} created"
 end
 

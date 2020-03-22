@@ -1,10 +1,153 @@
+@media (max-width: 767px) {
+  .container-fluid {
+    padding-top: calc((100vh - 70px - 290px - 80px)/2);
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .arrow {
+  	margin-top: 185px;
+  }
+
+
+  .image-show { 
+	 
+	 img {
+	 	width: 290px;
+	 }
+	}
+  .infos-show-content{
+    width: 290px
+  }
+
+  .titre {
+    font-size: 13px;
+  }
+
+  .dimensions{
+    font-size: 12px;
+
+  }
+
+  .details{
+    font-size: 12px;
+  }
+
+
+
+}
+
+@media (min-width: 768px) and (max-width: 998px) {
+     .container-fluid {
+      padding-top: calc((100vh - 70px - 400px - 80px)/2);
+    }
+
+
+     .arrow {
+	  	margin-top: 200px;
+	  }
+
+
+	  .image-show { 
+		 
+		 img {
+		 	width: 400px;
+		 }
+		}
+	  .infos-show-content{
+	    width: 400px
+	  }
+
+	  .titre {
+	    font-size: 13px;
+	  }
+
+	  .dimensions{
+	    font-size: 12px;
+
+	  }
+
+	  .details{
+	    font-size: 12px;
+	  }
+}
+
+@media (min-width: 998px) and (max-width: 1200px) {
+     .container-fluid {
+      padding-top: calc((100vh - 70px - 500px - 80px)/2);
+    }
+
+
+     .arrow {
+	  	margin-top: 250px;
+	  }
+
+
+	  .image-show { 
+		 
+		 img {
+		 	width: 500px;
+		 }
+		}
+	  .infos-show-content{
+	    width: 500px
+	  }
+
+	  .titre {
+	    font-size: 13px;
+	  }
+
+	  .dimensions{
+	    font-size: 12px;
+
+	  }
+
+	  .details{
+	    font-size: 12px;
+	  }
+}
+
+@media (min-width: 1200px) {
+       .container-fluid {
+      padding-top: calc((100vh - 70px - 500px - 80px)/2);
+    }
+
+
+     .arrow {
+	  	margin-top: 300px;
+	  }
+
+
+	  .image-show { 
+		 
+		 img {
+		 	width: 500px;
+		 }
+		}
+	  .infos-show-content{
+	    width: 500px
+	  }
+
+	  .titre {
+	    font-size: 13px;
+	  }
+
+	  .dimensions{
+	    font-size: 12px;
+
+	  }
+
+	  .details{
+	    font-size: 12px;
+	  }
+}
+
+
 .image-show { 
  display: flex;
  justify-content: space-around;
  margin-top: 4px;
- img {
- 	width: 500px;
- }
+
 }
 .infos-show {
 	display: flex;
@@ -16,7 +159,7 @@
 	padding-left: 0px;
 }
 .infos-show-content {
-	width:500px;
+
 	color: white;
 	background-color: #5a5147;
 	display: flex;
@@ -44,25 +187,10 @@
 	font-weight: 700px;
  
 }
-.titre {
-	font-weight: 700;
-	font-size: 16px;
-	padding-top: 6px;
-}
 
-.dimensions{
-	font-weight: 100;
-	font-size: 14px;
-
-}
-
-.details{
-	font-size: 14px;
-	font-weight: 100;
-}
 
 .flip-cards {
-	width: 471px;
+
 	margin-top: 4px;
 }
 
@@ -73,16 +201,14 @@
 }
 
 .left-arrow {
-	    margin-top: 70%;
-    margin-left: 20px;
     /* height: 36px; */
     font-size: 30px;
+    z-index : 1
 }
 
 .right-arrow {
-	padding-top: 70%;
 	cursor: pointer;
-    margin-right: 20px;
+
     /* display: flex; */
     align-items: center;
     right: 0px;
@@ -97,17 +223,18 @@
 
 .left-show {
 	display: flex;
+	z-index: 1;
 }
 
 .left-show a {
-	   z-index: 1;
+	   z-index: 2;
     height: 100%;
     width: 100%;
 }
 
 .right-show a{
 
-    z-index: 1;
+    z-index: 2;
     height: 100%;
     width: 100%;
 	
@@ -121,4 +248,11 @@
 	color: white;
 	opacity: 0.5;
 	text-decoration: none;
+}
+.flip-card-show {
+  width: 50px;
+  height: 50px;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  cursor: pointer;
+
 }
