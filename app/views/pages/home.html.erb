@@ -12,11 +12,8 @@
 							<%= link_to "", portrait_path(portrait), class: "card-link"%>
 						</div> 
 						<div class="flip-card-back">						
-							<% if FileTest.exist?(portrait.petiteimage) %>
 							<%=	image_tag portrait.petiteimage %>
-							<% else %>
-							<%=	image_tag portrait.image %>
-							<% end %>
+						
 							<%= link_to "", portrait_path(portrait), class: "card-link"%>
 						</div>
 					</div>	
