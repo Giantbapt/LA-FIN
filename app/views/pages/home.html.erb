@@ -6,7 +6,7 @@
 				<div class="row ">
 				<% portraits.each do |portrait| %>
 					<div class=" flip-card" data-titre="<%= portrait.titre%>" data-number="<%= portrait.numéro %>" data-details="<%= portrait.details %>" data-dimensions="<%= portrait.dimensions%>">	
-					<%= link_to "", portrait_path(portrait), class: "card-link"%>
+
 						<div class="flip-card-front">
 							<%= image_tag portrait.visages %>
 							<%= link_to "", portrait_path(portrait), class: "card-link"%>

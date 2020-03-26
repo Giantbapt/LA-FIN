@@ -7,11 +7,7 @@
 				<% portraits.each do |portrait| %>
 					<div class=" flip-card-show"  data-titre="<%= portrait.titre%>" data-number="<%= portrait.numéro %>" data-details="<%= portrait.details %>" data-dimensions="<%= portrait.dimensions%>">	
 						<%= link_to "", portrait_path(portrait), class: "card-link"%>					
-						<% if FileTest.exist?(portrait.petiteimage) %>
 						<%=	image_tag portrait.petiteimage %>
-						<% else %>
-						<%=	image_tag portrait.image %>
-						<% end %>
 					</div>	
 				<% end %>
 				</div>		
