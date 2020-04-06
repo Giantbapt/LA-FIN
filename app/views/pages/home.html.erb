@@ -8,12 +8,12 @@
 					<div class=" flip-card" data-titre="<%= portrait.titre%>" data-number="<%= portrait.numéro %>" data-details="<%= portrait.details %>" data-dimensions="<%= portrait.dimensions%>">	
 
 						<div class="flip-card-front">
-							<%= image_tag portrait.visages %>
+							<%=	image_tag portrait.petiteimage %>
+						
 							<%= link_to "", portrait_path(portrait), class: "card-link"%>
 						</div> 
 						<div class="flip-card-back">						
-							<%=	image_tag portrait.petiteimage %>
-						
+							<%= image_tag portrait.visages %>
 							<%= link_to "", portrait_path(portrait), class: "card-link"%>
 						</div>
 					</div>	

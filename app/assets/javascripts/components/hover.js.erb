@@ -1,22 +1,14 @@
+ var jon = document.querySelectorAll('.flip-card');
 
-// console.log("hello fucker");
+// configure au click le début de l'action.
+function returnCard (card){
+    card.classList.remove('flip-card-out');
+    card.classList.remove('flip-card-in');
+    card.classList.add('flip-card-in');
+    console.log("you are in");
+}
 
-// // const element = document.querySelectorAll(".flip-card-front");
-// // console.log(element)
-// // element[0].addEventListener('mouseover', (event) => {
-// // 	console.log("hello!");
-// // });
-// // function addHover() {
-// // 	element.addEventListener("mouseover", (event) => {
-// // 	console.log("hello!");
-// // });
-// // }
- 
-// // addHover();
-// //export { addHover } ;
-
-
-document.querySelectorAll('.flip-card').forEach(function(card) {
+function returnCardInfinite (card) {
     var number = card.dataset.number
     var titre = card.dataset.titre
     var dimensions = card.dataset.dimensions
@@ -27,10 +19,10 @@ document.querySelectorAll('.flip-card').forEach(function(card) {
     var dimensionsInfos= document.querySelector('.dimensions');
     var detailsInfos= document.querySelector('.details');
     card.addEventListener('mouseenter', function(){
-    	console.log("hello");
-        card.classList.remove('flip-card-out');
+        console.log("hello");
         card.classList.remove('flip-card-in');
-        card.classList.add('flip-card-in');
+        card.classList.remove('flip-card-out');
+        card.classList.add('flip-card-out');
         numberInfos.innerHTML = number;
         titreInfos.innerHTML = titre;
         dimensionsInfos.innerHTML = dimensions;
@@ -38,33 +30,162 @@ document.querySelectorAll('.flip-card').forEach(function(card) {
     })
     card.addEventListener('mouseleave', function(){
         setTimeout(()=> {
-        	card.classList.add('flip-card-out')
-    		console.log("goodbye");
- 		}, 5 * 1000);
-    })
-})
+            card.classList.remove('flip-card-out')
+            card.classList.add('flip-card-in')
+            console.log("goodbye");
+        }, 5 * 1000);
+    })   
+}
 
-document.querySelectorAll('.flip-card-show').forEach(function(card) {
+document.addEventListener("DOMContentLoaded", (event) => {
+    console.log("Hello");
     
-    var number = card.dataset.number
-    var titre = card.dataset.titre
-    var dimensions = card.dataset.dimensions
-    var details = card.dataset.details
+    // sélectionner toutes les flip-cards
+    // réaliser une action pour chacune de ces flip card
+    // créer un array de 100 valeurs 
+    jon.forEach(function(card, index) {
+        setTimeout(function() {returnCard(card);}, 70 * index);
+    })
 
-    var numberInfos= document.querySelector('.number');
-    var titreInfos= document.querySelector('.titre');
-    var dimensionsInfos= document.querySelector('.dimensions');
-    var detailsInfos= document.querySelector('.details');
-    card.addEventListener('mouseenter', function(){
-        numberInfos.innerHTML = number;
-        titreInfos.innerHTML = titre;
-        dimensionsInfos.innerHTML = dimensions;
-        detailsInfos.innerHTML = details;
+    jon.forEach(function(card) {
+        setTimeout(function() {returnCardInfinite(card);}, 70 * 100);
     })
-    card.addEventListener('mouseleave', function(){
-        // var infos = document.querySelector('.index-titre');
-        // console.log(infos.value);
-        // infos.remove(id);
-    })
+
 })
+// console.log("hello fucker");
+
+// // const element = document.querySelectorAll(".flip-card-front");
+// // console.log(element)
+// // element[0].addEventListener('mouseover', (event) => {
+// //   console.log("hello!");
+// // });
+// // function addHover() {
+// //   element.addEventListener("mouseover", (event) => {
+// //   console.log("hello!");
+// // });
+// // }
+ 
+// addHover();
+//export { addHover } ;
+// document.querySelectorAll('.flip-card').forEach(function(card) {
+//     var number = card.dataset.number
+//     var titre = card.dataset.titre
+//     var dimensions = card.dataset.dimensions
+//     var details = card.dataset.details
+
+//     var numberInfos= document.querySelector('.number');
+//     var titreInfos= document.querySelector('.titre');
+//     var dimensionsInfos= document.querySelector('.dimensions');
+//     var detailsInfos= document.querySelector('.details');
+//     card.addEventListener('mouseenter', function(){
+//         console.log("hello");
+//         card.classList.remove('flip-card-in');
+//         card.classList.remove('flip-card-out');
+//         card.classList.add('flip-card-out');
+//         numberInfos.innerHTML = number;
+//         titreInfos.innerHTML = titre;
+//         dimensionsInfos.innerHTML = dimensions;
+//         detailsInfos.innerHTML = details;
+//     })
+//     card.addEventListener('mouseleave', function(){
+//         setTimeout(()=> {
+//             card.classList.add('flip-card-out')
+//             console.log("goodbye");
+//         }, 5 * 1000);
+//     })
+// })
+
+//Utilisation
+//La variable contient un nombre aléatoire compris entre 1 et 10
+
+//  jon.forEach(function(card, index) {
+//             //attendre 0,5s 
+//             // retourner la carte
+//                 setTimeout(function() {returnCard(card);}, 50 * index);
+//             // debugger
+// })
+
+
+// var displaySequence = function(){
+//     compSequence.forEach(function(color, index){
+//         setTimeout(function(){
+//             $("#" + color).fadeTo(300, 0.5).fadeTo(300, 1.0);
+//         },
+//         1000 * index);
+//     })
+// }
+// const delayLoop = (fn, delay) => {
+//   return (name, i) => {
+//     setTimeout(() => {
+//       display(name);
+//     }, i * 1000);
+//   }
+// };
+// names.forEach(delayLoop(display, 1000));
+
+
+    // <#% portraits.each_slice(10) do |portrait_slice| %>
+    //         console.log("hello");
+    // <#%    portrait_slice.each do |portrait| %>
+    // <#%      portrait.classList.add('flip-card-in') %>
+    // <#%      end %>
+    // <#% end %>
+
+
+        
+
+    // document.querySelectorAll('.flip-card').forEach(function(card) {
+    //     var number = card.dataset.number
+    //     var titre = card.dataset.titre
+    //     var dimensions = card.dataset.dimensions
+    //     var details = card.dataset.details
+
+    //     var numberInfos= document.querySelector('.number');
+    //     var titreInfos= document.querySelector('.titre');
+    //     var dimensionsInfos= document.querySelector('.dimensions');
+    //     var detailsInfos= document.querySelector('.details');
+    //     setTimeout(5000);
+
+        // card.addEventListener('mouseenter', function(){
+        // 	// console.log("hello");
+        //     card.classList.remove('flip-card-out');
+        //     card.classList.remove('flip-card-in');
+        //     card.classList.add('flip-card-in');
+        //     numberInfos.innerHTML = number;
+        //     titreInfos.innerHTML = titre;
+        //     dimensionsInfos.innerHTML = dimensions;
+        //     detailsInfos.innerHTML = details;
+        // })
+    //    //  card.addEventListener('mouseleave', function(){
+    //    //      setTimeout(()=> {
+    //    //      	card.classList.add('flip-card-out')
+    //    //  		console.log("goodbye");
+    //  		// // }, 5 * 1000);
+    //    //  })
+    // })
+// })
+
+// document.querySelectorAll('.flip-card-show').forEach(function(card) {
+    
+//     var number = card.dataset.number
+//     var titre = card.dataset.titre
+//     var dimensions = card.dataset.dimensions
+//     var details = card.dataset.details
+
+//     var numberInfos= document.querySelector('.number');
+//     var titreInfos= document.querySelector('.titre');
+//     var dimensionsInfos= document.querySelector('.dimensions');
+//     var detailsInfos= document.querySelector('.details');
+//     card.addEventListener('mouseenter', function(){
+//         numberInfos.innerHTML = number;
+//         titreInfos.innerHTML = titre;
+//         dimensionsInfos.innerHTML = dimensions;
+//         detailsInfos.innerHTML = details;
+//     })
+//     card.addEventListener('mouseleave', function(){
+//         // var infos = document.querySelector('.index-titre');
+//         // console.log(infos.value);
+//         // infos.remove(id);
+//     })
+// })
 
