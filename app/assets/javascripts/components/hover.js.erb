@@ -37,18 +37,18 @@ function returnCardInfinite (card) {
     })   
 }
 
-document.addEventListener("DOMContentLoaded", (event) => {
+window.addEventListener('load', (event) => {
     console.log("Hello");
     
     // sélectionner toutes les flip-cards
     // réaliser une action pour chacune de ces flip card
     // créer un array de 100 valeurs 
     jon.forEach(function(card, index) {
-        setTimeout(function() {returnCard(card);}, 70 * index);
+        setTimeout(function() {returnCard(card);}, 50 * index);
     })
 
     jon.forEach(function(card) {
-        setTimeout(function() {returnCardInfinite(card);}, 70 * 100);
+        setTimeout(function() {returnCardInfinite(card);}, 50 * 100);
     })
 
 })
