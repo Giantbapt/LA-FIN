@@ -1,26 +1,68 @@
 @media (max-width: 767px) {
   .la-fin-img{
-    width: 230px;
+    width: 150px;
     left: 0px;
   }
   .navbar-middle {
     margin-left: 0px;
+    a h3 {
+      font-size: 10px;
+    }
+  }
+  .btn-menu {
+   font-family: 'UniversLTStd';
+    color: black;
+    font-size: 10px;
+    padding: 0px;
+  }
+  .dropdown-menu {
+    width: 340px;
+  }
+  .dropdown-item a {
+    font-size: 12px;
   }
 
 }
 
 @media (min-width: 768px) and (max-width: 998px) {
-
+    .navbar-middle {
+    margin-left: 0px;
+    a h3 {
+      font-size: 16px;
+    }
+  }
+  .btn-menu {
+   font-family: 'UniversLTStd';
+    color: black;
+    font-size: 16px;
+}
 }
 @media (min-width: 998px) and (max-width: 1200px) {
-  .navbar-middle {
-    margin-left: 56px;
-      width: 500px;
+    .navbar-middle {
+    margin-left: 0px;
+    a h3 {
+      font-size: 16px;
+    }
   }
-
+  .btn-menu {
+   font-family: 'UniversLTStd';
+    color: black;
+    font-size: 16px;
+}
 }
 @media (min-width: 1200px) {
+    .navbar-middle {
+    margin-left: 0px;
+    a h3 {
+      font-size: 16px;
+    }
+  }
 
+  .btn-menu {
+   font-family: 'UniversLTStd';
+    color: black;
+    font-size: 16px;
+}
 }
 
 
@@ -43,21 +85,29 @@
 }
 
 .navbar-middle {
-  background-color: white;
-  
+  background-color: white; 
+ a h3 {
+  font-family: UniversLTStd;
+    color: black;
+
+    display: table-cell;
+    vertical-align: middle;
+ } a h3:hover {
+    opacity: 0.8;
+    color: #5a5147;
+    text-decoration: none;
+ } a:hover {
+  text-decoration: none;
+ }
 }
+
 .navbar-toggler{
   border: none;
 }
 .navbar-wrapper {
 	width: 100vw;
 }
-.btn-menu {
-	color: black;
-	font-weight: 700;
-    font-size: 14px;
-    letter-spacing: 1px;
-}
+
 .btn-menu:hover {
   opacity: 0.8;
   color: #5a5147;
@@ -87,7 +137,7 @@
 .dropdown-item {
     color: white;
     font-weight: 200;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Univers', sans-serif;
     font-size: 14px;
     a {
       text-decoration: none;
@@ -115,4 +165,7 @@
   color: #fff;
   text-decoration: none;
   background-color: white;
+}
+.dropdown-menu-right, .show {
+  box-shadow: 10px 10px 20px #352b2b;
 }

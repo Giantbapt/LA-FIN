@@ -8,6 +8,7 @@ Rails.application.routes.draw do
    get 'lepouvoirdesclones', to: 'pages#lepouvoirdesclones', as: :lepouvoirdesclones
    get 'seduction', to: 'pages#seduction', as: :seduction
    get 'remerciements', to: 'pages#remerciements', as: :remerciements
+   get 'jeanpierrechebassier', to: 'pages#jeanpierrechebassier', as: :jeanpierrechebassier
 end
 
 Rails.application.routes.draw do

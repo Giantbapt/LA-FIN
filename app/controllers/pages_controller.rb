@@ -25,6 +25,8 @@ class PagesController < ApplicationController
   	
   end
   def remerciements
-  	
+  end
+
+  def jeanpierrechebassier
   end
 end

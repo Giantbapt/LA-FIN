@@ -90,7 +90,7 @@
 		 }
 		}
 	  .infos-show-content{
-	    width: 500px
+	    width: 450px
 	  }
 
 	  .titre {
@@ -142,6 +142,16 @@
 	  }
 }
 
+.titre{
+	font-family: 'UniversLTStd-Black';
+}
+
+.table-cell{
+	height: 80px;
+    width: 100%;
+    display: table-cell;
+    vertical-align: middle;
+}
 
 .image-show { 
  display: flex;
@@ -163,7 +173,7 @@
 	color: white;
 	background-color: #5a5147;
 	display: flex;
- 	font-family: 'Roboto', sans-serif;
+ 	font-family: 'UniversLTStd', sans-serif;
 
 	
 }

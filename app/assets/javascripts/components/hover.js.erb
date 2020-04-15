@@ -1,4 +1,5 @@
  var jon = document.querySelectorAll('.flip-card');
+ var jonShow = document.querySelectorAll('.flip-card-show');
 
 // configure au click le début de l'action.
 function returnCard (card){
@@ -37,6 +38,8 @@ function returnCardInfinite (card) {
     })   
 }
 
+
+
 window.addEventListener('load', (event) => {
     console.log("Hello");
     
@@ -51,6 +54,25 @@ window.addEventListener('load', (event) => {
         setTimeout(function() {returnCardInfinite(card);}, 50 * 100);
     })
 
+})
+
+jonShow.forEach(function(card) {
+    var number = card.dataset.number
+    var titre = card.dataset.titre
+    var dimensions = card.dataset.dimensions
+    var details = card.dataset.details
+
+    var numberInfos= document.querySelector('.number');
+    var titreInfos= document.querySelector('.titre');
+    var dimensionsInfos= document.querySelector('.dimensions');
+    var detailsInfos= document.querySelector('.details');
+
+    card.addEventListener('mouseenter', function(){
+        numberInfos.innerHTML = number;
+        titreInfos.innerHTML = titre;
+        dimensionsInfos.innerHTML = dimensions;
+        detailsInfos.innerHTML = details;
+    })
 })
 // console.log("hello fucker");
 
