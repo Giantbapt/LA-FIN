@@ -9,6 +9,10 @@ Rails.application.routes.draw do
    get 'seduction', to: 'pages#seduction', as: :seduction
    get 'remerciements', to: 'pages#remerciements', as: :remerciements
    get 'jeanpierrechebassier', to: 'pages#jeanpierrechebassier', as: :jeanpierrechebassier
+
+   get '/404', to: "errors#not_found"
+    get '/422', to: "errors#unacceptable"
+    get '/500', to: "errors#internal_error"
 end
 
 Rails.application.routes.draw do

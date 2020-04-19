@@ -29,4 +29,7 @@ class PagesController < ApplicationController
 
   def jeanpierrechebassier
   end
+
+  def mentionslegales
+  end
 end
