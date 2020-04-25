@@ -38,33 +38,40 @@ function returnCardInfinite (card) {
     })   
 }
 
-function touchReturnCardInfinite (card) {
-    var number = card.dataset.number
-    var titre = card.dataset.titre
-    var dimensions = card.dataset.dimensions
-    var details = card.dataset.details
+function touchReturnCardInfinite(card) {
+    // jon.addEventListener('touchstart', function(){
+    //     jon.forEach(function(card) {
+           var number = card.dataset.number
+            var titre = card.dataset.titre
+            var dimensions = card.dataset.dimensions
+            var details = card.dataset.details
 
-    var numberInfos= document.querySelector('.number');
-    var titreInfos= document.querySelector('.titre');
-    var dimensionsInfos= document.querySelector('.dimensions');
-    var detailsInfos= document.querySelector('.details');
-    card.addEventListener('touchmove', function(){
-        console.log("hello");
-        card.classList.remove('flip-card-in');
-        card.classList.remove('flip-card-out');
-        card.classList.add('flip-card-out');
-        numberInfos.innerHTML = number;
-        titreInfos.innerHTML = titre;
-        dimensionsInfos.innerHTML = dimensions;
-        detailsInfos.innerHTML = details;
-    })
-    card.addEventListener('touchend', function(){
-        setTimeout(()=> {
-            card.classList.remove('flip-card-out')
-            card.classList.add('flip-card-in')
-            console.log("goodbye");
-        }, 5 * 1000);
-    })   
+            var numberInfos= document.querySelector('.number');
+            var titreInfos= document.querySelector('.titre');
+            var dimensionsInfos= document.querySelector('.dimensions');
+            var detailsInfos= document.querySelector('.details');
+
+            card.addEventListener('touchmove', function(e){
+                console.log(e.targetTouches);
+                card.classList.remove('flip-card-in');
+                card.classList.remove('flip-card-out');
+                card.classList.add('flip-card-out');
+                numberInfos.innerHTML = number;
+                titreInfos.innerHTML = titre;
+                dimensionsInfos.innerHTML = dimensions;
+                detailsInfos.innerHTML = details;
+                console.log("hello touch move");
+                e.preventDefault()
+            })
+            card.addEventListener('touchend', function(){
+                setTimeout(()=> {
+                    card.classList.remove('flip-card-out')
+                    card.classList.add('flip-card-in')
+                    console.log("goodbye");
+                }, 5 * 1000);
+            })   
+    //     })
+    // })
 }
 
 
@@ -78,16 +85,13 @@ window.addEventListener('load', (event) => {
     jon.forEach(function(card, index) {
         setTimeout(function() {returnCard(card);}, 50 * index);
     })
-
-    jon.forEach(function(card) {
+     jon.forEach(function(card) {
         setTimeout(function() {returnCardInfinite(card);}, 50 * 100);
-    })
-    jon.forEach(function(card, index) {
+     })
+     jon.forEach(function(card) {
         setTimeout(function() {touchReturnCardInfinite(card);}, 50 * 100);
-
-
-    })
-
+     })
+     
 })
 
 jonShow.forEach(function(card) {

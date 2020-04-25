@@ -11,6 +11,10 @@ body {
   .sans-infos{
      padding-bottom: calc((100vh - 70px - 290px - 80px)/2);
   }
+  .sans-infos-image{
+    height: 290px;
+    width: 290px;
+  }
 
   .flip-cards {
     width: 290px;
@@ -57,10 +61,14 @@ body {
 
 @media (min-width: 768px) and (max-width: 998px) {
      .container-fluid {
-      padding-top: calc((100vh - 70px - 500px - 80px)/2);
+      padding-top: calc((100vh - 70px - 400px - 80px)/2);
     }
     .sans-infos{
-      padding-bottom: calc((100vh - 70px - 500px - 80px)/2);
+      padding-bottom: calc((100vh - 70px - 400px - 80px)/2);
+    }
+      .sans-infos-image{
+      height: 400px;
+      width: 400px;
     }
 
     .flip-cards {
@@ -103,6 +111,10 @@ body {
     .sans-infos{
       padding-bottom: calc((100vh - 70px - 450px - 80px)/2);
     }
+       .sans-infos-image{
+      height: 450px;
+      width: 450px;
+    }
 
     .flip-cards {
     width: 450px;
@@ -138,6 +150,10 @@ body {
     }
     .sans-infos{
       padding-bottom: calc((100vh - 70px - 500px - 80px)/2);
+    }
+     .sans-infos-image{
+      height: 500px;
+      width: 500px;
     }
   .flip-cards {
     width: 500px;
@@ -226,7 +242,6 @@ body {
 
 .content-homepage {
   width: 100%;
-  margin-top: 30px;
   padding-bottom: 50px;
   padding-top: 50px;
   background-color: #5a5147;
@@ -259,11 +274,18 @@ body {
     border-radius: 50%;
   }
 }
-.sans-infos-image{
-    padding-top: calc((100vh - 70px - 400px)/2);
+.sans-infos{
     height: calc(100vh - 70px);
+    padding-top: calc((100vh - 70px - 500px - 80px)/2);
+    display: table-cell;
+    vertical-align: middle;
+    width: 100vw;
 }
 
+
+.titre {
+  padding-top: 6px;
+}
 
 
 
