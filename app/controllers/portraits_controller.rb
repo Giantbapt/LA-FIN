@@ -13,6 +13,10 @@ class PortraitsController < ApplicationController
 		@portrait = Portrait.find(params[:id])
 	end
 
+	def image
+		@portrait = Portrait.find(params[:id])
+	end
+
 	def create
 	end
 

@@ -7,6 +7,10 @@
 
   .arrow {
   	margin-top: 185px;
+  	a {
+  		font-size: 15px;
+  		
+  	}
   }
 
 
@@ -20,18 +24,7 @@
     width: 290px
   }
 
-  .titre {
-    font-size: 13px;
-  }
-
-  .dimensions{
-    font-size: 12px;
-
-  }
-
-  .details{
-    font-size: 12px;
-  }
+  
  .flip-card-show {
   width: 29px;
   height: 29px;
@@ -39,11 +32,8 @@
   cursor: pointer;
     img {
     width: 29px;
-  }
-
-
-
-}
+  	}
+ }
 
 
 }
@@ -56,6 +46,10 @@
 
      .arrow {
 	  	margin-top: 200px;
+	  	a {
+	  		font-size: 20px;
+	  		
+	  	}
 	  }
 
 
