@@ -6,6 +6,7 @@ body {
 @media (max-width: 767px) {
   .container-fluid {
       padding-top: calc((100vh - 70px - 290px - 80px)/2);
+      height: calc(100vh - 70px);
 
   }
   .sans-infos{
@@ -62,6 +63,8 @@ body {
 @media (min-width: 768px) and (max-width: 998px) {
      .container-fluid {
       padding-top: calc((100vh - 70px - 400px - 80px)/2);
+      height: calc(100vh - 70px);
+
     }
     .sans-infos{
       padding-bottom: calc((100vh - 70px - 400px - 80px)/2);
@@ -106,6 +109,7 @@ body {
 @media (min-width: 998px) and (max-width: 1200px) {
     .container-fluid {
       padding-top: calc((100vh - 70px - 450px - 80px)/2);
+      height: calc(100vh - 70px);
     }
 
     .sans-infos{
@@ -147,6 +151,7 @@ body {
 @media (min-width: 1200px) {
    .container-fluid {
       padding-top: calc((100vh - 70px - 500px - 80px)/2);
+      height: calc(100vh - 70px);
     }
     .sans-infos{
       padding-bottom: calc((100vh - 70px - 500px - 80px)/2);
@@ -258,6 +263,7 @@ body {
     margin-top: 15px;
     font-size: 25px;
   }
+
 
 .text-homepage p {
   color: white;

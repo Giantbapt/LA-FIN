@@ -6,6 +6,7 @@
     height: 80px;
     width: 375px;
     text-align: center;}
+
 .text-jpc {
 	width: 100%;
 	color: white;
@@ -14,9 +15,14 @@
 	padding-top: 30px;
 	padding-bottom: 30px;
 	text-align: justify;
-	h2 {
-		text-align: center;
-		font-size: 20px;
-	}
 
+}
+
+.titre-jpc {
+    color: white;
+    text-align: center;
+    font-family: 'UniversLTStd-Black';
+    margin-bottom: 30px;
+    margin-top: 15px;
+    font-size: 25px;
 }

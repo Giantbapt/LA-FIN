@@ -10,7 +10,7 @@
 						<div class="flip-card-front">
 							<%=	image_tag portrait.petiteimage %>
 						
-							<%= link_to "", portrait_path(portrait), class: "card-link"%>
+							<%= link_to "", portrait_path(portrait), class: "card-link", data: {number: portrait.numéro } %>
 						</div> 
 						<div class="flip-card-back">						
 							<%= image_tag portrait.visages %>
@@ -28,7 +28,7 @@
 			</div>
 			<div class="infos-right col-9 table-cell">
 				<div class="titre index-titre col-12">
-					<h1>PORTRAITS</h1>
+					<h2>PORTRAITS</h2>
 				</div>
 				<div class="details col-12">
 			
@@ -45,11 +45,11 @@
 	<div class="titre-homepage">
 		<h1>LA FIN DES GRANDES DIFFÉRENCES</h1>
 	</div>
-	<div class="text-homepage offset-sm-1 col-sm-10 offset-md-3 col-md-6 ">
+	<div class="text-homepage offset-sm-1 col-sm-10 offset-md-3 col-md-6 offset-xl-4 col-xl-4 ">
 		<p>Artiste observateur du monde, Jean-Pierre Chebassier pose, à travers cette œuvre de cent portraits, un regard interrogateur sur la tragique contradiction entre civilisation et humanisme, entre désir d’adhérer à un modèle de richesse et perte d’identité. Influencé par différentes périodes de sa vie passées au Soudan, puis à New-York aux USA, enfin à Paris, c’est un regard critique posé sur une hégémonie occidentale qui détruit tout ce qui ne lui ressemble pas. 
-		Pourquoi l’Homme a t-il besoin de redéfinir des signes de distinction personnels alors qu’il n’aspire qu’à faire partie d’une société prédatrice de la singularité ? 
-		Ces cent portraits sont une seule œuvre : La fin des grandes différences. 
-		<br>Elle pose la question du clonage humain engendré par la mondialisation, mais aussi par l’aspiration des plus démunis de la planète à découvrir l’eldorado occidental.
+		<br><br>Pourquoi l’Homme a t-il besoin de redéfinir des signes de distinction personnels alors qu’il n’aspire qu’à faire partie d’une société prédatrice de la singularité ? 
+		<br><br>Ces cent portraits sont une seule œuvre : <br><strong>La fin des grandes différences.</strong> 
+		<br><br>Elle pose la question du clonage humain engendré par la mondialisation, mais aussi par l’aspiration des plus démunis de la planète à découvrir l’eldorado occidental.
 		Séduction collective et existence individuelle, mais aussi Liberté et respect des autres, sont au centre de cette quête de sens. 
 		</p>
 	</div>

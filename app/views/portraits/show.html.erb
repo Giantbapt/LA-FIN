@@ -16,7 +16,10 @@
 		</div>
 		<div class="image">
 			<div class=" image-show ">
-				<%= image_tag @portrait.image, class: "center-block" %>
+				<a href="<%= image_url @portrait.image %>" target="_blank" class="center-block">
+					<%= image_tag @portrait.image, class: "center-block" %>
+					
+				</a>
 			</div>
 			<div class="infos-show">
 				
