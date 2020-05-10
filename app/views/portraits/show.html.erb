@@ -16,8 +16,9 @@
 		</div>
 		<div class="image">
 			<div class=" image-show ">
-				<a href="<%= image_url @portrait.image %>" target="_blank" class="center-block">
-					<%= image_tag @portrait.image, class: "center-block" %>
+				<!-- <a href="<#%= image_url @portrait.image %>" target="_blank" class="center-block"> -->
+					<% bigimage = @portrait.image.gsub(" ", "_").gsub("'", "_").unicode_normalize(:nfd) %>
+							<%=	cl_image_tag(bigimage) %>
 					
 				</a>
 			</div>

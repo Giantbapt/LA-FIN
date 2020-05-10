@@ -6,14 +6,15 @@
 				<div class="row ">
 				<% portraits.each do |portrait| %>
 					<div class=" flip-card" data-titre="<%= portrait.titre%>" data-number="<%= portrait.numéro %>" data-details="<%= portrait.details %>" data-dimensions="<%= portrait.dimensions%>">	
-
+<!-- .encode("US-ASCII", "UTF-8", undef: :replace) -->
 						<div class="flip-card-front">
-							<%=	image_tag portrait.petiteimage %>
+							<% smallimage = portrait.petiteimage.gsub(" ", "_").gsub("'", "_").unicode_normalize(:nfd) %>
+							<%=	cl_image_tag(smallimage) %>
 						
 							<%= link_to "", portrait_path(portrait), class: "card-link", data: {number: portrait.numéro } %>
 						</div> 
 						<div class="flip-card-back">						
-							<%= image_tag portrait.visages %>
+							<%= cl_image_tag(portrait.visages) %>
 							<%= link_to "", portrait_path(portrait), class: "card-link"%>
 						</div>
 					</div>	

@@ -24,6 +24,8 @@ document.root.xpath('portrait').each do |portrait|
   dimensions      = portrait.xpath('dimensions').text
   number += 1
 	Portrait.create(numéro: number, image: image, titre: title, dimensions: dimensions, details: details, visages: "visages_#{number}-#{number}.jpg", petiteimage: "Petit-#{image}")
+  # Cloudinary::Uploader.upload("app/assets/images/#{image}", :use_filename => true, :flags => :attachment) "app/assets/images/#{image}"
+
   puts "#{number} - #{image} - #{title} - #{details} - #{dimensions} created"
 end
 

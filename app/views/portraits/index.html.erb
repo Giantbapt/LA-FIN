@@ -5,9 +5,12 @@
 			<% jon.each do |portraits|%>
 				<div class="row ">
 				<% portraits.each do |portrait| %>
-					<div class=" flip-card-show"  data-titre="<%= portrait.titre%>" data-number="<%= portrait.numéro %>" data-details="<%= portrait.details %>" data-dimensions="<%= portrait.dimensions%>">	
+					<div class=" flip-card-show"  data-titre="<%= portrait.titre%>" data-number="<%= portrait.numéro %>" data-details="<%= portrait.details %>" data-dimensions="<%= portrait.dimensions%>">
+						<% smallimage = portrait.petiteimage.gsub(" ", "_").gsub("'", "_").unicode_normalize(:nfd) %>
+							
 						<%= link_to "", portrait_path(portrait), class: "card-link"%>					
-						<%=	image_tag portrait.petiteimage %>
+						<%=	cl_image_tag(smallimage) %>
+						
 					</div>	
 				<% end %>
 				</div>		
