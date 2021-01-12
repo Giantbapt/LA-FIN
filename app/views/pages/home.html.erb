@@ -1,9 +1,11 @@
 <div class="container-fluid">
 	<div class="wrap d-flex justify-content-center">
 		<div class="flip-cards ">
-			<% jon = @portraits.each_slice(10).to_a%>
+
+			<% jon = @portraits.order(:id).each_slice(10).to_a%>
 			<% jon.each do |portraits|%>
 				<div class="row ">
+
 				<% portraits.each do |portrait| %>
 					<div class=" flip-card" data-titre="<%= portrait.titre%>" data-number="<%= portrait.numéro %>" data-details="<%= portrait.details %>" data-dimensions="<%= portrait.dimensions%>">	
 <!-- .encode("US-ASCII", "UTF-8", undef: :replace) -->

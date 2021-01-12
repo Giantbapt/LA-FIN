@@ -44,7 +44,9 @@
 				<%  if @portrait.numéro == 100 %>
 					<%= link_to " > " ,jeanpierrechebassier_path %>
 				<% else %>
-					<%= link_to " > ",portrait_path(params[:id].to_i + 1)%>
+					<% suivant = @portrait[:id] + 1] %>
+					<% jonny = Portrait.find(:id = suivant)
+					<%= link_to " > ",portrait_path(@portrait[:id + 1])%>
 				<% end %> 
 			</div>
 		</div>

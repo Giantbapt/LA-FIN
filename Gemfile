@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.5.1'
+ruby '2.6.6'
 
 gem 'bootsnap', require: false
 gem 'devise'
@@ -21,6 +21,7 @@ gem 'bootstrap-sass'
 gem 'jquery-rails'
 gem 'dotenv-rails', groups: [:development, :test]
 gem 'cloudinary', '~> 1.12.0'
+gem 'friendly_id', '~> 5.2.4'
 
 group :development do
   gem 'web-console', '>= 3.3.0'
@@ -33,6 +34,5 @@ group :development, :test do
   gem 'listen', '~> 3.0.5'
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
-  gem 'dotenv-rails'
 end
 

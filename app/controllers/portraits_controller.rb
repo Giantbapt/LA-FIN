@@ -6,11 +6,13 @@ class PortraitsController < ApplicationController
 	end
 
 	def index
-		@portraits = Portrait.all
+		@portraits = Portrait.all.order(:numéro)
 	end
 
 	def show 
-		@portrait = Portrait.find(params[:id])
+		# @next = Portrait.find(params[:id])
+		@portraits = Portrait.all.order(:numéro)
+		@portrait = Portrait.friendly.find(params[:id])
 	end
 
 	def image
@@ -23,4 +25,10 @@ class PortraitsController < ApplicationController
 	def home
 		@portraits = Portrait.all
 	end
+
+	private
+
+  def portrait_params
+    params.require(:portrait).permit(:id, :titre, :numéro)
+  end
 end
