@@ -10,6 +10,7 @@ Rails.application.routes.draw do
    get 'remerciements', to: 'pages#remerciements', as: :remerciements
    get 'jeanpierrechebassier', to: 'pages#jeanpierrechebassier', as: :jeanpierrechebassier
    get 'mentionslegales', to: 'pages#mentionslegales', as: :mentionslegales
+   get 'contact', to: 'pages#contact', as: :contact
 
    get '/404', to: "errors#not_found"
     get '/422', to: "errors#unacceptable"

@@ -11,18 +11,18 @@ class PagesController < ApplicationController
   def pourquoi
   end
   def seduction
-  	
+
   end
   def hommage
-  	
+
   end
 
   def installationdanslaville
-  	
+
   end
 
   def lepouvoirdesclones
-  	
+
   end
   def remerciements
   end
@@ -31,5 +31,8 @@ class PagesController < ApplicationController
   end
 
   def mentionslegales
+  end
+
+  def contact
   end
 end

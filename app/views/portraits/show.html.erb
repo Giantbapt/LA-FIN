@@ -8,8 +8,8 @@
 				<% if @portrait.numéro == 1 %>
 					<%= link_to " < " ,jeanpierrechebassier_path %>
 				<% else %>
-					<%= link_to " < ",portrait_path(params[:id].to_i - 1)%>
-				<% end %> 
+					<%= link_to " < ",portrait_path(Portrait.friendly.find(Portrait.friendly.find((params[:id])).id - 1))%>
+				<% end %>
 			</div>
 
 			<a href="/" ></a>
@@ -19,11 +19,11 @@
 				<% bigimage = @portrait.image.gsub(" ", "_").gsub("'", "_").unicode_normalize(:nfd) %>
 				<a href="<%=cl_image_path(bigimage)%>" target="_blank" class="center-block">
 							<%=	cl_image_tag(bigimage) %>
-					
+
 				</a>
 			</div>
 			<div class="infos-show">
-				
+
 				<div class='infos-show-content'>
 					<div class="number col-3 align-middle"> <p> <%=@portrait.numéro %></p>
 					</div>
@@ -36,7 +36,7 @@
 						</div>
 					</div>
 				</div>
-			</div>		
+			</div>
 		</div>
 		<div class="right-show">
 			<a href="/" ></a>
@@ -44,10 +44,12 @@
 				<%  if @portrait.numéro == 100 %>
 					<%= link_to " > " ,jeanpierrechebassier_path %>
 				<% else %>
-					<% suivant = @portrait[:id] + 1] %>
-					<% jonny = Portrait.find(:id = suivant)
-					<%= link_to " > ",portrait_path(@portrait[:id + 1])%>
-				<% end %> 
+
+          <%= link_to " > ",portrait_path(Portrait.friendly.find(Portrait.friendly.find((params[:id])).id + 1))%>
+					<!-- <#%= link_to " > ",portrait_path(Portrait.friendly.find((params[:id].to_i).to_s))%> -->
+
+				<% end %>
+
 			</div>
 		</div>
 	</div>

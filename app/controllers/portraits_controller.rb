@@ -9,10 +9,11 @@ class PortraitsController < ApplicationController
 		@portraits = Portrait.all.order(:numéro)
 	end
 
-	def show 
+	def show
 		# @next = Portrait.find(params[:id])
 		@portraits = Portrait.all.order(:numéro)
 		@portrait = Portrait.friendly.find(params[:id])
+
 	end
 
 	def image
