@@ -15,7 +15,7 @@
 			<a href="/" ></a>
 		</div>
 		<div class="image">
-			<div class=" image-show ">
+			<div class=" image-show" data-left="<%= @left %>" data-right="<%= @right %> ">
 				<% bigimage = @portrait.image.gsub(" ", "_").gsub("'", "_").unicode_normalize(:nfd) %>
 				<a href="<%=cl_image_path(bigimage)%>" target="_blank" class="center-block">
 							<%=	cl_image_tag(bigimage) %>

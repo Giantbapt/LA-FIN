@@ -13,6 +13,8 @@ class PortraitsController < ApplicationController
 		# @next = Portrait.find(params[:id])
 		@portraits = Portrait.all.order(:numéro)
 		@portrait = Portrait.friendly.find(params[:id])
+    @left = Portrait.friendly.find(Portrait.friendly.find((params[:id])).id - 1)
+    @right = Portrait.friendly.find(Portrait.friendly.find((params[:id])).id + 1)
 
 	end
 
