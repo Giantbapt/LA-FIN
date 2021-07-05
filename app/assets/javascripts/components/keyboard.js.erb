@@ -1,19 +1,20 @@
 document.onkeydown = checkKey;
 
-function checkKey(e) {
 
-  console.log('you press a key');
-  var article = document.getElementById('image-show');
+function checkKey(e) {
+  blueRight = document.getElementsByClassName('arrow-right-java')[0].href;
+  blueLeft = document.getElementsByClassName('arrow-left-java')[0].href;
+
     e = e || window.event;
 
-    if (e.keyCode == '37') {
-        console.log("hello bapt");
-        console.log(article.dataset.left);
-        // window.location.replace("http://www.w3schools.com")
-
+    if  (e.keyCode == '37') {
+       // left arrow
+       window.location.href = blueLeft;
+       // blue.click();
     }
     else if (e.keyCode == '39') {
-        // down arrow
+       // right arrow
+       window.location.href = blueRight;
     }
 
 }

@@ -1,57 +1,58 @@
 <% content_for :meta_title, "#{@portrait.titre} Peinture par Jean-Pierre Chebassier" %>
 <% content_for :meta_description, @portrait.details %>
 <% content_for :meta_image, "#{@portrait.image}" %>
+
 <div class="container-fluid">
-	<div class="wrapper">
-		<div class="left-show">
-			<div class="left-arrow arrow">
-				<% if @portrait.numéro == 1 %>
-					<%= link_to " < " ,jeanpierrechebassier_path %>
-				<% else %>
-					<%= link_to " < ",portrait_path(Portrait.friendly.find(Portrait.friendly.find((params[:id])).id - 1))%>
-				<% end %>
-			</div>
+  <div class="wrapper">
+    <div class="left-show">
+      <div class="left-arrow arrow">
+        <% if @portrait.numéro == 1 %>
+          <%= link_to " < " ,jeanpierrechebassier_path , class: "arrow-left-java"%>
+        <% else %>
+          <%= link_to " < ",portrait_path(Portrait.friendly.find(Portrait.friendly.find((params[:id])).id - 1)), class: "arrow-left-java"%>
+        <% end %>
+      </div>
 
-			<a href="/" ></a>
-		</div>
-		<div class="image">
-			<div class=" image-show" data-left="<%= @left %>" data-right="<%= @right %> ">
-				<% bigimage = @portrait.image.gsub(" ", "_").gsub("'", "_").unicode_normalize(:nfd) %>
-				<a href="<%=cl_image_path(bigimage)%>" target="_blank" class="center-block">
-							<%=	cl_image_tag(bigimage) %>
+      <a href="/" ></a>
+    </div>
+    <div class="image">
+      <div class=" image-show ">
+          <% bigimage = @portrait.image.gsub(" ", "_").gsub("'", "_").unicode_normalize(:nfd) %>
+          <a href="<%=cl_image_path(bigimage)%>" target="_blank" class="center-block">
+                <%= cl_image_tag(bigimage) %>
 
-				</a>
-			</div>
-			<div class="infos-show">
+        </a>
+      </div>
+      <div class="infos-show">
 
-				<div class='infos-show-content'>
-					<div class="number col-3 align-middle"> <p> <%=@portrait.numéro %></p>
-					</div>
-					<div class="infos-right col-9">
-						<div class=" table-cell">
-							<div class="titre col-12"><%=@portrait.titre %></div>
-							<div class="details col-12"><%=@portrait.details %></div>
-							<div class="dimensions col-12"><%=@portrait.dimensions %></div>
+        <div class='infos-show-content'>
+          <div class="number col-3 align-middle"> <p> <%=@portrait.numéro %></p>
+          </div>
+          <div class="infos-right col-9">
+            <div class=" table-cell">
+              <div class="titre col-12"><%=@portrait.titre %></div>
+              <div class="details col-12"><%=@portrait.details %></div>
+              <div class="dimensions col-12"><%=@portrait.dimensions %></div>
 
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="right-show">
-			<a href="/" ></a>
-			<div class="right-arrow arrow">
-				<%  if @portrait.numéro == 100 %>
-					<%= link_to " > " ,jeanpierrechebassier_path %>
-				<% else %>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="right-show">
+      <a href="/" ></a>
+      <div class="right-arrow arrow">
+        <%  if @portrait.numéro == 100 %>
+          <%= link_to " > " ,jeanpierrechebassier_path , class: "arrow-right-java"%>
+        <% else %>
 
-          <%= link_to " > ",portrait_path(Portrait.friendly.find(Portrait.friendly.find((params[:id])).id + 1))%>
-					<!-- <#%= link_to " > ",portrait_path(Portrait.friendly.find((params[:id].to_i).to_s))%> -->
+          <%= link_to " > ",portrait_path(Portrait.friendly.find(Portrait.friendly.find((params[:id])).id + 1)), class: "arrow-right-java"%>
+          <!-- <#%= link_to " > ",portrait_path(Portrait.friendly.find((params[:id].to_i).to_s))%> -->
 
-				<% end %>
+        <% end %>
 
-			</div>
-		</div>
-	</div>
+      </div>
+    </div>
+  </div>
 </div>
 
