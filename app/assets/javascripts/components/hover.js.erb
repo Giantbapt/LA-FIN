@@ -1,4 +1,4 @@
-  var jon = document.querySelectorAll('.flip-card');
+var jon = document.querySelectorAll('.flip-card');
 var jonShow = document.querySelectorAll('.flip-card-show');
 
 function returnCard (card){
@@ -34,22 +34,22 @@ function returnCardInfinite (card) {
             card.classList.add('flip-card-in')
             console.log("goodbye");
         }, 5 * 1000);
-    })   
+    })
 }
 
 window.addEventListener('load', (event) => {
     console.log("Hello");
-    
+
     // sélectionner toutes les flip-cards
     // réaliser une action pour chacune de ces flip card
-    // créer un array de 100 valeurs 
+    // créer un array de 100 valeurs
     jon.forEach(function(card, index) {
-        
+
         setTimeout(function() {returnCard(card);}, 50 * index);
     })
- 
+
      jon.forEach(function(card) {
-       
+
         setTimeout(function() {returnCardInfinite(card);}, 50 * 100);
      })
     //  jon.forEach(function(card, index) {
@@ -60,7 +60,7 @@ window.addEventListener('load', (event) => {
     //  jon.forEach(function(card) {
     //     setTimeout(function() {touchReturnCardInfinite(card);}, 50 * 100);
     //  })
-     
+
 })
 
 jonShow.forEach(function(card) {
@@ -195,7 +195,7 @@ jonShow.forEach(function(card) {
 // //                     card.classList.add('flip-card-in')
 // //                     console.log("goodbye");
 // //                 }, 5 * 1000);
-// //             })   
+// //             })
 // //     //     })
 // //     // })
 // // }
@@ -223,7 +223,7 @@ jonShow.forEach(function(card) {
 // //   console.log("hello!");
 // // });
 // // }
- 
+
 // addHover();
 //export { addHover } ;
 // document.querySelectorAll('.flip-card').forEach(function(card) {
@@ -258,7 +258,7 @@ jonShow.forEach(function(card) {
 //La variable contient un nombre aléatoire compris entre 1 et 10
 
 //  jon.forEach(function(card, index) {
-//             //attendre 0,5s 
+//             //attendre 0,5s
 //             // retourner la carte
 //                 setTimeout(function() {returnCard(card);}, 50 * index);
 //             // debugger
@@ -291,7 +291,7 @@ jonShow.forEach(function(card) {
     // <#% end %>
 
 
-        
+
 
     // document.querySelectorAll('.flip-card').forEach(function(card) {
     //     var number = card.dataset.number
@@ -325,7 +325,7 @@ jonShow.forEach(function(card) {
 // })
 
 // document.querySelectorAll('.flip-card-show').forEach(function(card) {
-    
+
 //     var number = card.dataset.number
 //     var titre = card.dataset.titre
 //     var dimensions = card.dataset.dimensions
