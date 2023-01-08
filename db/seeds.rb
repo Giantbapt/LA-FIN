@@ -27,6 +27,7 @@ document.root.xpath('portrait').each do |portrait|
   # Cloudinary::Uploader.upload("app/assets/images/#{image}", :use_filename => true, :flags => :attachment) "app/assets/images/#{image}"
 
   puts "#{number} - #{image} - #{title} - #{details} - #{dimensions} created"
+  puts "hello"
 end
 
 # Manque la photo numéro 1, 2, 17, 31, 36, 47, 49, 50, 56, 59, 79, 82, 97.
