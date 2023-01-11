@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.6.6'
+ruby '3.1.2'
 
 gem 'bootsnap', require: false
 gem 'devise'
@@ -23,6 +23,7 @@ gem 'jquery-rails'
 gem 'dotenv-rails', groups: [:development, :test]
 gem 'cloudinary', '~> 1.12.0'
 gem 'friendly_id', '~> 5.2.4'
+gem 'minitest'
 
 group :development do
   gem 'web-console', '>= 3.3.0'
