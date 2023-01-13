@@ -6,7 +6,7 @@ gem 'devise'
 gem 'jbuilder', '~> 2.0'
 gem 'pg'
 gem 'puma'
-gem 'rails', '6.0.0'
+gem 'rails', '6.1.3'
 gem 'redis'
 gem 'nokogiri'
 
@@ -21,9 +21,10 @@ gem 'mimemagic', github: 'mimemagicrb/mimemagic', ref: '01f92d86d15d85cfd0f20dab
 gem 'bootstrap-sass'
 gem 'jquery-rails'
 gem 'dotenv-rails', groups: [:development, :test]
-gem 'cloudinary', '~> 1.12.0'
+gem 'cloudinary', '~> 1.24'
 gem 'friendly_id', '~> 5.2.4'
 gem 'minitest'
+gem 'psych', '< 4'
 
 group :development do
   gem 'web-console', '>= 3.3.0'

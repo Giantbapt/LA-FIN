@@ -20,3 +20,4 @@ end
 Rails.application.routes.draw do
   resources :portraits , only: [:index, :show, :image]
 end
+
