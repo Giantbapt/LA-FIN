@@ -1925,6 +1925,7 @@ __metadata:
     babel: ^6.23.0
     babel-loader: ^9.1.2
     bootstrap: ^4.4.1
+    case-sensitive-paths-webpack-plugin: ^2.4.0
     es6: 0.0.7
     jquery: ^3.4.1
     popper.js: ^1.16.0
@@ -2969,6 +2970,13 @@ __metadata:
   version: 2.2.0
   resolution: "case-sensitive-paths-webpack-plugin@npm:2.2.0"
   checksum: fd8ea62153ab011ee58336e0d075929050cb64af23b5351293f0ba050407d41733976b14bced404423ae3c9a358bb6a253036247662e234be1c9e68ea054c6ae
+  languageName: node
+  linkType: hard
+
+"case-sensitive-paths-webpack-plugin@npm:^2.4.0":
+  version: 2.4.0
+  resolution: "case-sensitive-paths-webpack-plugin@npm:2.4.0"
+  checksum: bcf469446eeee9ac0046e30860074ebb9aa4803aab9140e6bb72b600b23b1d70635690754be4504ce35cd99cdf05226bee8d894ba362a3f5485d5f6310fc6d02
   languageName: node
   linkType: hard
 
