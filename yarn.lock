@@ -1973,11 +1973,11 @@ __metadata:
   linkType: hard
 
 "acorn@npm:^6.2.1":
-  version: 6.3.0
-  resolution: "acorn@npm:6.3.0"
+  version: 6.4.2
+  resolution: "acorn@npm:6.4.2"
   bin:
-    acorn: ./bin/acorn
-  checksum: 7e34e357e337cc31da2d253b6152d0ac3655540a3d4e9c64ea1e420f9b02797281b41e8ffbcb74d28f58ac0104512f7d4d43f8719b25dbd3854799be4aa4ea6a
+    acorn: bin/acorn
+  checksum: 44b07053729db7f44d28343eed32247ed56dc4a6ec6dff2b743141ecd6b861406bbc1c20bf9d4f143ea7dd08add5dc8c290582756539bc03a8db605050ce2fb4
   languageName: node
   linkType: hard
 
