@@ -1932,7 +1932,7 @@ __metadata:
     turbolinks: ^5.2.0
     webpack: ^5.75.0
     webpack-cli: ^5.0.1
-    webpack-dev-server: ^4.11.0
+    webpack-dev-server: ^4.11.1
   languageName: unknown
   linkType: soft
 
@@ -11208,7 +11208,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"webpack-dev-server@npm:^4.11.0":
+"webpack-dev-server@npm:^4.11.1":
   version: 4.11.1
   resolution: "webpack-dev-server@npm:4.11.1"
   dependencies:
