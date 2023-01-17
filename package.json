@@ -5,7 +5,7 @@
     "@popperjs/core": "^2.11.6",
     "@rails/actioncable": "latest",
     "@rails/activestorage": "latest",
-    "@rails/webpacker": "next",
+    "@rails/webpacker": "^5.4.3",
     "bootstrap": "^5.2.3",
     "webpack": "^5.51.1",
     "webpack-cli": "^4.8.0"
