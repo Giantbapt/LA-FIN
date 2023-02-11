@@ -6,19 +6,22 @@ gem 'devise'
 gem 'jbuilder', '~> 2.0'
 gem 'pg'
 gem 'puma'
-gem 'rails', '6.1.3'
+gem 'rails', '7.0.1'
 gem 'redis'
 gem 'nokogiri'
+gem "sprockets-rails"
 
 gem 'autoprefixer-rails'
 gem 'font-awesome-sass', '~> 5.6.1'
 gem 'sassc-rails'
 gem 'simple_form'
 gem 'uglifier'
-gem 'webpacker', '6.0.0.rc.5'
+gem 'webpacker'
 gem 'mimemagic', github: 'mimemagicrb/mimemagic', ref: '01f92d86d15d85cfd0f20dabd025dcbd36a8a60f'
+gem 'jsbundling-rails'
 
 gem 'bootstrap-sass'
+gem 'bootstrap', '~> 5.2', '>= 5.2.3'
 gem 'jquery-rails'
 gem 'dotenv-rails', groups: [:development, :test]
 gem 'cloudinary', '~> 1.24'
@@ -39,3 +42,5 @@ group :development, :test do
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
 
+
+gem "cssbundling-rails", "~> 1.1"

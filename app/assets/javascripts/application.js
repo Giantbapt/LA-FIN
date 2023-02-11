@@ -1,7 +1,3 @@
-//= require rails-ujs
-//= require_tree .
-
-
-
- // import {addHover} from "../components/hover";
- // addHover();
+ import '../stylesheets/style' ;
+ import 'components/hover' ;
+ import 'components/keyboard' ;

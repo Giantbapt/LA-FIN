@@ -17,18 +17,125 @@
     <%= favicon_link_tag %>
     <%= csrf_meta_tags %>
     <%= action_cable_meta_tag %>
-    <%= stylesheet_link_tag 'application', media: 'all' %>
-    <%#= stylesheet_pack_tag 'application' %>
+    <%= stylesheet_link_tag 'style' %>
+    <%= javascript_include_tag "application.js" %>
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,900&display=swap" rel="stylesheet">
     <%#= stylesheet_pack_tag 'application', media: 'all' %> <!-- Uncomment if you import CSS in app/javascript/packs/application.js -->
-    <%= javascript_pack_tag "application" %>
+    <%= stylesheet_link_tag "application" %>
+
   </head>
   <body>
+  <script>
+  var jon = document.querySelectorAll('.flip-card');
+var jonShow = document.querySelectorAll('.flip-card-show');
+console.log('hello beaugosse');
+function returnCard (card){
+    card.classList.remove('flip-card-out');
+    card.classList.remove('flip-card-in');
+    card.classList.add('flip-card-in');
+    console.log("you are in");
+
+}
+function returnCardInfinite (card) {
+    var number = card.dataset.number
+    var titre = card.dataset.titre
+    var dimensions = card.dataset.dimensions
+    var details = card.dataset.details
+
+    var numberInfos= document.querySelector('.number');
+    var titreInfos= document.querySelector('.titre');
+    var dimensionsInfos= document.querySelector('.dimensions');
+    var detailsInfos= document.querySelector('.details');
+    card.addEventListener('mouseenter', function(){
+        console.log("hello");
+        card.classList.remove('flip-card-in');
+        card.classList.remove('flip-card-out');
+        card.classList.add('flip-card-out');
+        numberInfos.innerHTML = number;
+        titreInfos.innerHTML = titre;
+        dimensionsInfos.innerHTML = dimensions;
+        detailsInfos.innerHTML = details;
+    })
+    card.addEventListener('mouseleave', function(){
+        setTimeout(()=> {
+            card.classList.remove('flip-card-out')
+            card.classList.add('flip-card-in')
+            console.log("goodbye");
+        }, 5 * 1000);
+    })
+}
+
+window.addEventListener('load', (event) => {
+    console.log("Hello");
+
+    // sélectionner toutes les flip-cards
+    // réaliser une action pour chacune de ces flip card
+    // créer un array de 100 valeurs
+    jon.forEach(function(card, index) {
+
+        setTimeout(function() {returnCard(card);}, 50 * index);
+    })
+
+     jon.forEach(function(card) {
+
+        setTimeout(function() {returnCardInfinite(card);}, 50 * 100);
+     })
+    //  jon.forEach(function(card, index) {
+    //     touchTurnCard(card);
+    //     debugger
+    // })
+
+    //  jon.forEach(function(card) {
+    //     setTimeout(function() {touchReturnCardInfinite(card);}, 50 * 100);
+    //  })
+
+})
+
+jonShow.forEach(function(card) {
+    var number = card.dataset.number
+    var titre = card.dataset.titre
+    var dimensions = card.dataset.dimensions
+    var details = card.dataset.details
+
+    var numberInfos= document.querySelector('.number');
+    var titreInfos= document.querySelector('.titre');
+    var dimensionsInfos= document.querySelector('.dimensions');
+    var detailsInfos= document.querySelector('.details');
+
+    card.addEventListener('mouseenter', function(){
+        numberInfos.innerHTML = number;
+        titreInfos.innerHTML = titre;
+        dimensionsInfos.innerHTML = dimensions;
+        detailsInfos.innerHTML = details;
+    })
+})
+  </script>
+    <script>document.onkeydown = checkKey;
+
+
+function checkKey(e) {
+  blueRight = document.getElementsByClassName('arrow-right-java')[0].href;
+  blueLeft = document.getElementsByClassName('arrow-left-java')[0].href;
+  console.log('hello');
+
+    e = e || window.event;
+
+    if  (e.keyCode == '37') {
+       // left arrow
+       window.location.href = blueLeft;
+       // blue.click();
+    }
+    else if (e.keyCode == '39') {
+       // right arrow
+       window.location.href = blueRight;
+    }
+
+}
+ </script>
     <%= render 'shared/navbar' %>
     <%= render 'shared/flashes' %>
     <%= yield %>
     <%#= render 'shared/footer' %>
-    <%= javascript_include_tag 'application' %>
-    <%= javascript_pack_tag 'application' %>
+
   </body>
 </html>
