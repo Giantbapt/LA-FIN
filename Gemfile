@@ -16,9 +16,12 @@ gem 'font-awesome-sass', '~> 5.6.1'
 gem 'sassc-rails'
 gem 'simple_form'
 gem 'uglifier'
-gem 'webpacker'
+#gem 'webpacker'
 gem 'mimemagic', github: 'mimemagicrb/mimemagic', ref: '01f92d86d15d85cfd0f20dabd025dcbd36a8a60f'
 gem 'jsbundling-rails'
+gem "cssbundling-rails", "~> 1.1"
+
+
 
 gem 'bootstrap-sass'
 gem 'bootstrap', '~> 5.2', '>= 5.2.3'
@@ -43,4 +46,3 @@ group :development, :test do
 end
 
 
-gem "cssbundling-rails", "~> 1.1"
